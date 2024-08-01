@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es-MX">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>La Judicatura hoy</title>
+    <link rel="stylesheet" href="../../css/bootstrap.min.css" media="screen" onload="if(media!='screen')media='screen'" />
+    <link rel="stylesheet" href="../../css/font-CJF.min.css" media="screen" onload="if(media!='screen')media='screen'" />
+    <link rel="stylesheet" href="https://www.cjf.gob.mx/css/cjf.css" media="screen" onload="if(media!='screen')media='screen'" />
+    <!--<link rel="stylesheet" href="../css/../salaPrensa.css" media="screen" onload="if(media!='screen')media='screen'" />-->
+    <link rel="stylesheet" href="../../css/font-awesome.min.css" media="screen" onload="if(media!='screen')media='screen'" />
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" />
+    <style>
+        :root {
+
+        --vw_All: 1600;
+        --vh_header1: 459;
+        --valueHeight_header1: 459px;
+        --valueWidth_header1: 1600px;
+        --minValueWidth_header1: 375px;
+        --minValueHeight_header1: calc(var(--minValueWidth_header1)*var(--valueHeight_header1)/var(--valueWidth_header1));
+        --heighValue_header1: calc(100vw*(459/var(--vw_All)));
+
+
+        --vw_bt1: 330;
+        --vh_btn1: 67;
+        --valueWidth_btn1: 330px;
+        --valueHeight_btn1: 67px;
+        --minValueWidth_btn1: 50px;
+        --minValueHeight_btn1: calc(var(--minValueWidth_btn1)*var(--valueHeight_btn1)/var(--valueWidth_btn1));
+        --heighValue_btn1: calc(100vw*(var(--vh_btn1)/var(--vw_bt1)));
+    }
+
+
+
+    #header1,
+    ,
+    .all-headers {
+        max-width: var(--valueWidth_header1);
+        min-width: var(--minValueWidth_header1);
+        /*height: 100vh;*/
+        max-height: var(--valueHeight_header1);
+        height: var(--heighValue_header1);
+
+        /*min-height: var(--minValueHeight_header1);*/
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-color: blue;
+    }
+
+    #header2 {
+        max-width: var(--valueWidth_header1);
+        min-width: var(--minValueWidth_header1);
+        max-height: 400px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-color: blue;
+    }
+
+    #header1 #div1_header1 {
+
+        max-height: var(--valueHeight_header1);
+        max-width: var(--valueWidth_header1);
+        min-width: var(--minValueWidth_header1);
+        /*height: 100vh;*/
+        height: var(--heighValue_header1);
+    }
+
+
+    #div1_header1 img,
+    #div1_header2 img,
+    #div1_header3 img,
+    #div1_header5 .position-absolute img,
+    #div1_header6 img,
+    #div1_header7 .position-absolute img,
+  
+    #div1_header10 .position-absolute img
+    {
+
+        max-height: var(--valueHeight_btn1);
+        max-width: var(--valueWidth_btn1);
+        min-width: var(--minValueWidth_btn1);
+        /*height: 100vh;*/
+        height: var(--heighValue_btn1);
+        position: relative;
+        z-index: 9;
+        width: 90%;
+        cursor: pointer;
+        display:none;
+    }
+
+
+       #div1_header1 img {
+        top: calc(var(--heighValue_header1)*.65);
+        left: 0%;
+        bottom: 0%;
+        float: right;
+    }
+
+    #div1_header5-a, #div1_header5-b{
+left:3rem;
+    }
+
+
+#div1_header3 img{
+            left: -4vw;
+            bottom: 0%;
+            float: right;
+        }
+
+    #div1_header5 #div1_header5-c img {
+        left: -4vw;
+        bottom: 0%;
+        float: right;
+    }
+
+    #div1_header2 img {
+        left: 10vw;
+        bottom: 0%;
+    }
+
+    #div1_header6{
+        margin:0 auto;
+        text-align: center;
+        width: 72%
+    }
+
+    #div1_header7 .row.position-absolute {
+        margin: 0 auto;
+        width: 100%;
+    }
+
+     #div1_header7-a{
+        left:3vw;
+     }
+
+        #div1_header7-b{
+        left:-3vw;
+     }
+
+    
+
+    #div1_header8 img {
+        max-height: var(--valueHeight_btn1);
+        max-width: var(--valueWidth_btn1);
+        min-width: var(--minValueWidth_btn1);
+        /*height: 100vh;*/
+        height: calc(var(--heighValue_btn1)*.8);
+        position: relative;
+        z-index: 9;
+        cursor: pointer;
+        display:none;
+        margin: 0 auto;
+        
+    }
+  #div1_header8 #imgDiv_header8{
+             display: inline;
+    width: 30%;
+    left: 0%;
+    
+        }
+
+       #div1_header8 .row img:first-child{
+        
+    display: inline;
+    width: 30%;
+    left: 50%;
+}
+
+ #div1_header10 .row.position-absolute img{
+            
+            left:1vw;
+        }
+    
+    @media (min-width:769px) {
+
+#div1_header8 #imgDiv_header8{
+             display: inline;
+    width: 30%;
+    left: 0%;
+    top:14vmin!important;
+        }
+
+       #div1_header8 .row img:first-child{
+        top: 5rem!important;
+    display: inline;
+    width: 30%;
+    left: 50%;
+
+
+
+        
+       }
+
+        #div1_header5 .row.position-absolute img{
+            left: 0vw;
+    bottom: 0%;    /* float: right; */
+    width: 70%;
+        }
+
+         #div1_header5-a, #div1_header5-b{
+
+        left:-2rem;
+        }
+    }
+    
+    @media (max-width:768px) {  
+        .position-absolute img {
+            /*left: 50vw;
+            bottom: 1%;*/
+            --heighValue_btn1: calc(40vw*(var(--vh_btn1)/var(--vw_bt1)));
+        }
+
+        #div1_header3 img{
+            left: -15vw;
+            bottom: 0%;
+            float: right;
+            width: 25%;
+        }
+        #div1_header5 #div1_header5-c img {
+            left: -8vw;
+            bottom: 0%;
+            float: right;
+            width: 20%;
+        }
+
+          #div1_header2 img {
+            left: 15vw;
+            width: 25%;
+        }
+
+        #div1_header10 .row.position-absolute img{
+            width: 60%;
+            left:-6vw;
+        }
+
+        #div1_header5 .row.position-absolute img{
+            left: -10vw;
+    bottom: 0%;    /* float: right; */
+    width: 57%;
+        }
+ #div1_header6 img{
+    width: inherit;
+ }
+
+
+       #div1_header7 .row.position-absolute img{
+        width: 40%;
+        left:auto;
+       }
+
+        #div1_header8 #imgDiv_header8{
+             display: inline;
+    width: 30%;
+    left: 0%;
+    top:90px!important;
+        }
+
+       #div1_header8 .row img:first-child{
+        top: 56px;
+    display: inline;
+    width: 30%;
+    left: 50%;
+
+        
+       }
+       
+        
+    }
+
+    @media (max-device-width:450px) and (orientation : portrait) {
+        .position-absolute img {
+            /*left: 50vw;
+            bottom: 1%;*/
+            --heighValue_btn1: calc(40vw*(var(--vh_btn1)/var(--vw_bt1)));
+        }
+
+        #div1_header2 img {
+            left: 10vw;
+        }
+
+        #div1_header5 .row.position-absolute,
+        #div1_header7 .row.position-absolute {
+            left: 0;
+            padding: 0px;
+        }
+
+        #div1_header5 #div1_header5-c img {
+            left: 8vw;
+            bottom: 0%;
+            float: right;
+        }
+
+
+         #div1_header8 #imgDiv_header8{
+             display: inline;
+    width: 30%;
+    left: 0%;
+    top:130px!important;
+        }
+
+       #div1_header8 .row img:first-child{
+        top: 56px;
+    display: inline;
+    width: 30%;
+    left: 50%;
+
+        
+       }
+    }
+    </style>
+</head>
+
+<body>
+    <div class="container" style="background-image: url('../img/laJudicaturaHoy/index/textura_boletin.svg'); max-width: 1280px">
+        <div class=" row position-relative">
+            <div class="col all-headers"> <img src='../img/laJudicaturaHoy/index/encabezado1.svg' /> </div>
+            <div class="col position-absolute" id="div1_header1"> <img src="../img/laJudicaturaHoy/index/bton_encabezado1.svg" onclick="openUrl(1);" /> </div>
+        </div>
+        <div class="row position-relative">
+            <div class="col all-headers"> <img src='../img/laJudicaturaHoy/index/02.svg' /> </div>
+            <div class="col position-absolute" id="div1_header2"> <img src="../img/laJudicaturaHoy/index/botones/Btn-justicia_al_dia.svg" onclick="openUrl(2);" /> </div>
+        </div>
+        <div class="row position-relative" id="div1_header10">
+            <div class="col all-headers"> <img src='../img/laJudicaturaHoy/index/03.svg' /> </div>
+            <div class="row position-absolute">
+                <div class="col text-right" id="div1_header10-a">
+                    <img src="../img/laJudicaturaHoy/index/botones/Btn-sentencias.svg" onclick="openUrl(20)" />
+                </div>
+                <div class="col text-left" id="div1_header10-b">
+                    <img src="../img/laJudicaturaHoy/index/botones/Btn-sentencias_video.svg" onclick="openUrl(21)" />
+                </div>
+            </div>
+        </div>
+        <div class="row position-relative">
+            <div class="col all-headers"> <img src='../img/laJudicaturaHoy/index/04.svg' /> </div>
+            <div class="col position-absolute" id="div1_header3"> <img src="../img/laJudicaturaHoy/index/botones/Btn-putno_vista.svg" onclick="openUrl(3);" /> </div>
+        </div>
+        <div class="row position-relative">
+            <div class="col all-headers"> <img src='../img/laJudicaturaHoy/index/05.svg' /> </div>
+            <div class="col position-absolute hidden" id="div1_header4"></div>
+        </div>
+        <div class="row position-relative" id="div1_header5">
+            <div class="col all-headers"> <img src='../img/laJudicaturaHoy/index/06.svg' /> </div>
+            <div class="row position-absolute">
+                <div class="col text-right" id="div1_header5-a">
+                    <img src="../img/laJudicaturaHoy/index/botones/Btn_multimedia_podcast.svg" onclick="openUrl(4)" />
+                </div>
+                <div class="col text-left" id="div1_header5-b">
+                    <img src="../img/laJudicaturaHoy/index/botones/Btn_multimedia_podcast_spotify.svg" onclick="openUrl(5)" />
+                </div>
+            </div>
+            <div class="col position-absolute" id="div1_header5-c"> <img src="../img/laJudicaturaHoy/index/botones/Btn_te_defendemos.svg" onclick="openUrl(6)" /> </div>
+        </div>
+        <div class="row position-relative">
+            <div class="col all-headers"> <img src='../img/laJudicaturaHoy/index/07.svg' /> </div>
+            <div class="col position-absolute" id="div1_header6"> <img src="../img/laJudicaturaHoy/index/botones/Btn_recordar_1824.svg" onclick="openUrl(7)" /> </div>
+        </div>
+        <div class="row position-relative" id="div1_header7">
+            <div class="col all-headers"> <img src='../img/laJudicaturaHoy/index/08.svg' /> </div>
+            <div class="row position-absolute">
+                <div class="col text-right" id="div1_header7-a"> <img src="../img/laJudicaturaHoy/index/botones/Btn_justicia_mundo_argentina.svg" onclick="openUrl(8)" /> </div>
+                <div class="col text-left" id="div1_header7-b"> <img src="../img/laJudicaturaHoy/index/botones/Btn_justicia_mundo_argentina.svg" onclick="openUrl(9)" /> </div>
+            </div>
+        </div>
+        <div class="row position-relative">
+            <div class="col all-headers"> <img src='../img/laJudicaturaHoy/index/09.svg' /> </div>
+            <div class="col position-absolute" id="div1_header8">
+                <div class="row" style="float:right">
+                    <img src="../img/laJudicaturaHoy/index/botones/Btn_somos_asi_defendemor.svg" onclick="openUrl(10)" style="top: 5vh" />
+                    <br />
+                    <img id="imgDiv_header8" src="../img/laJudicaturaHoy/index/botones/Btn_somos_asi_defendemor.svg" onclick="openUrl(11)" style="top: 15vh" />
+                </div>
+            </div>
+        </div>
+        <div class="row position-relative" style="margin-top: 20px">
+        </div>
+        <div class="row position-relative">
+            <div class="col all-headers"> <img src='../img/laJudicaturaHoy/index/10.svg' /> </div>
+        </div>
+        <div class="row position-relative">
+            <div class="col" style="min-height: 20px; max-height: 50px"> <img src='../img/laJudicaturaHoy/index/11.svg' style="margin-top: 10px; height: 100%; cursor: pointer;" onclick="openUrl(12)" /> </div>
+            <div class="col" style="min-height: 20px; max-height: 50px"> <img src='../img/laJudicaturaHoy/index/12.svg' style="margin-top: 10px; height: 100%;cursor: pointer;" onclick="openUrl(13)" /> </div>
+            <div class="col" style="min-height: 20px; max-height: 50px"> <img src='../img/laJudicaturaHoy/index/13.svg' style="margin-top: 10px; height: 100%;cursor: pointer;" onclick="openUrl(14)" /> </div>
+            <div class="col" style="min-height: 20px; max-height: 50px"> <img src='../img/laJudicaturaHoy/index/14.svg' style="margin-top: 10px; height: 100%;cursor: pointer;" onclick="openUrl(15)" /> </div>
+            <div class="col" style="min-height: 20px; max-height: 50px"> <img src='../img/laJudicaturaHoy/index/15.svg' style="margin-top: 10px; height: 100%;cursor: pointer;" onclick="openUrl(16)" /> </div>
+            <div class="col" style="min-height: 20px; max-height: 50px"> <img src='../img/laJudicaturaHoy/index/16.svg' style="margin-top: 10px; height: 100%;cursor: pointer;" onclick="openUrl(17)" /> </div>
+            <div class="col" style="min-height: 20px; max-height: 50px"> <img src='../img/laJudicaturaHoy/index/17.svg' style="margin-top: 10px; height: 100%;cursor: pointer;" onclick="openUrl(18)" /> </div>
+            <div class="col" style="min-height: 20px; max-height: 50px"> <img src='../img/laJudicaturaHoy/index/18.svg' style="margin-top: 10px; height: 100%;cursor: pointer;" onclick="openUrl(19)" /> </div>
+        </div>
+        <div class="row position-relative">
+            <div class="col all-headers"> <img src='../img/laJudicaturaHoy/index/19.svg' style="margin-top: 15px;" /> </div>
+        </div>
+    </div>
+    <!--<div class="container2">
+        <div id="header1" style="background-image: url('../img/laJudicaturaHoy/index/encabezado1.svg')">
+            
+        </div>
+        <div class="" id="div1_header1">
+           
+        </div>
+        <div class="col-md-12 col-sm-12" id="header1" style="background-image: url('../img/laJudicaturaHoy/index/encabezado1.svg')">
+            <div class="col-md-offset-7 col-md-3 col-lg-offset-9 col-lg-3  col-sm-offset-8 col-md- col-xs-12" id="div1_header1">
+                <img src="../img/laJudicaturaHoy/index/bton_encabezado1.svg">
+            </div>
+        </div>
+        <div class="spacer"></div>
+        <div class="col-md-12 col-sm-12" id="header2" style="background-image: url('../img/laJudicaturaHoy/index/03.svg')">
+            <div class="col-md-offset-7 col-md-3 col-lg-offset-9 col-lg-3  col-sm-offset-8 col-md- col-xs-12" id="div1_header2">
+                <img src="../img/laJudicaturaHoy/index/bton_encabezado1.svg">
+            </div>-->
+    <a class="fancybox hidden" data-fancybox-type="iframe" href="">Youtube (iframe)</a>
+</body>
+<script src="../../js/jquery.min.js"></script>
+<script src="../../js/bootstrap.min.js"></script>
+<script src="../../js/script.min.js"></script>
+<script type="text/javascript" src="//www.cjf.gob.mx/js/fancybox-2.1.7/source/jquery.fancybox.pack.js?v=v=1.0.0"></script>
+<link rel="stylesheet" type="text/css" href="//www.cjf.gob.mx/js/fancybox-2.1.7/source/jquery.fancybox.css?v=v=1.0.0" media="screen" />
+<!-- Add Button helper (this is optional) -->
+<link rel="stylesheet" type="text/css" href="//www.cjf.gob.mx/js/fancybox-2.1.7/source/helpers/jquery.fancybox-buttons.css?v=v=1.0.0" />
+<!-- <script type="text/javascript" src="../source/helpers/jquery.fancybox-buttons.js?v=v=1.0.0"></script>-->
+<!-- Add Thumbnail helper (this is optional) -->
+<link rel="stylesheet" type="text/css" href="//www.cjf.gob.mx/js/fancybox-2.1.7/source/helpers/jquery.fancybox-thumbs.css?v=1v=1.0.0" />
+<script type="text/javascript" src="//www.cjf.gob.mx/js/fancybox-2.1.7/source/helpers/jquery.fancybox-thumbs.js?v=v=1.0.0"></script>
+<!-- Add Media helper (this is optional) -->
+<script type="text/javascript" src="//www.cjf.gob.mx/js/fancybox-2.1.7/source/helpers/jquery.fancybox-media.js?v=1.0.0"></script>
+<script>
+$(document).ready(function() {
+
+    setTimeout(function() {
+        fixTopImg();
+    }, 3000);
+
+
+});
+
+$(".fancybox").fancybox({
+    type: "iframe",
+    // other API options
+})
+
+function fixTopImg() {
+    var _dynamicHeight = $(".row.position-relative:first-child").height();
+    $("#div1_header1 img").css("top", _dynamicHeight * .8);
+
+    _dynamicHeight = $(".row.position-relative:nth-child(2)").height();
+    $("#div1_header2 img").css("top", _dynamicHeight * .8);
+
+    _dynamicHeight = $(".row.position-relative:nth-child(3)").height();
+    $("#div1_header10 img").css("top", _dynamicHeight * .75);
+
+    _dynamicHeight = $(".row.position-relative:nth-child(4)").height();
+    $("#div1_header3 img").css("top", _dynamicHeight * .75);
+
+    _dynamicHeight = $(".row.position-relative:nth-child(6)").height();
+    $("#div1_header5-c img").css("top", _dynamicHeight * .8);
+    $("#div1_header5 .row.position-absolute").css("top", _dynamicHeight * .8);
+
+    _dynamicHeight = $(".row.position-relative:nth-child(7)").height();
+    $("#div1_header6 img").css("top", _dynamicHeight * .85);
+
+    _dynamicHeight = $(".row.position-relative:nth-child(8)").height();
+    $("#div1_header7 .row.position-absolute").css("top", _dynamicHeight * .8);
+
+    /*_dynamicHeight = $(".row.position-relative:nth-child(9)").height();
+    $("#div1_header8 img:first-child").css("top", _dynamicHeight * .4);
+    $("#div1_header8 img:nth-child(2)").css("top", _dynamicHeight * .45);*/
+
+
+
+    $("img").show();
+
+
+
+}
+
+function openUrl(param) {
+    var url = "";
+    switch (param) {
+        case 1:
+            var url = "../resourcesBoletinHoy.html?file=audio_encabezado_boletin_09.mp3&genericFileTitle=Lo%20m%C3%A1s%20relevante%20La%20Judicatura%20hoy,%20Bolet%C3%ADn%2009&bIsJudicaHoy=true";
+            window.parent.location.href = url;
+            break;
+        case 2:
+            var url = "https://www.cjf.gob.mx/documentos/Comunicados%20Prensa/docsComunicadosPrensa/2023/comunicado76.pdf";
+            window.open(url, '_blank');
+            break;
+        case 3:
+            var url = "https://www.cjf.gob.mx/SalaPrensa/contenidosPuntoDeVista.htm?idBoletin=boletin-09&bIsJudicaHoy=1";
+            window.parent.location.href = url;
+            break;
+        case 4:
+            var url = "https://www.cjf.gob.mx/SalaPrensa/podcastSpotify.htm?iEpisodio=9";
+            window.parent.location.href = url;
+            break;
+        case 5:
+            var url = "https://podcasters.spotify.com/pod/show/cjf-informa/episodes/Reflexiones-desde-el-Consejo-Episodio-10---La-inteligencia-artificial-y-la-justicia-e29u456";
+            window.open(url, '_blank');
+            break;
+        case 6:
+            var url = "https://www.youtube.com/embed/M1-uooiRn20?autoplay=1"; //https://www.youtube.com/embed/jid2A7ldc_8?autoplay=1
+            //alert('');
+
+            $.fancybox({
+                type: "iframe",
+                href: url,
+                // other API options
+            });
+            /*$("a#open_video").fancybox({
+                'padding': 4,
+                'height': 'auto',
+                'transitionIn': 'none',
+                'transitionOut': 'none',
+                'type': 'iframe',
+                'width': '70%',
+
+                beforeShow: function() {
+                    //this.href = url;
+                },
+                afterLoad: function() {
+                    //this.title = "<span style=\"font-size:14px;display:block;font-weight:bold; text-align:left;color:#24135f;padding:5px;\">" + (this.title ? '' + this.title : '') + "</span>";
+                } // afterLoad
+
+            });*/
+            //window.open(url, '_blank');
+            break;
+        case 7:
+            var url = "../resourcesBoletinHoy.html?file=audio_efemerides_boletin_09.mp3&genericFileTitle=Constituci%C3%B3n%20Federal%20de%201824&bIsJudicaHoy=true"
+            window.open(url, '_blank');
+            break;
+        case 8:
+            var url = "https://www.diarioconstitucional.cl/2023/09/25/exigir-no-tener-mas-de-60-anos-para-ejercer-un-cargo-en-un-organismo-publico-es-inconstitucional-resuelve-corte-suprema-de-argentina/";
+            window.open(url, '_blank');
+            break;
+        case 9:
+            var url = "http://www.tsj.gob.ve/-/tsj-aprueba-creacion-de-nuevos-tribunales-en-materia-de-delitos-de-violencia-contra-la-mujer-en-los-estados-barinas-la-guaira-y-trujillo";
+            window.open(url, '_blank');
+            break;
+        case 10:
+            var url = "https://escuelajudicial.cjf.gob.mx/pages/Calendario.htm";
+            window.open(url, '_blank');
+            break;
+        case 11:
+            var url = "https://www.ifdp.cjf.gob.mx/index.htm#contDefendemos";
+            window.open(url, '_blank');
+            break;
+        case 12:
+            var url = "https://www.facebook.com/CJFMx";
+            window.open(url, '_blank');
+            break;
+        case 13:
+            var url = "https://twitter.com/CJF_Mx";
+            window.open(url, '_blank');
+            break;
+        case 14:
+            var url = "https://www.instagram.com/cjf_mx/";
+            window.open(url, '_blank');
+            break;
+        case 15:
+            var url = "https://www.linkedin.com/company/consejo-de-la-judicatura-federal-oficial/posts/?feedView=all";
+            window.open(url, '_blank');
+
+            break;
+        case 16:
+            var url = "https://www.youtube.com/c/cjfmx";
+            window.open(url, '_blank');
+            break;
+        case 17:
+            var url = "https://open.spotify.com/show/05vI4naa6msLHPwVVD4VAx";
+            window.open(url, '_blank');
+            break;
+        case 18:
+            var url = "https://www.cjf.gob.mx";
+            window.open(url, '_blank');
+            break;
+        case 19:
+            var url = "https://www.cjf.gob.mx/SinInformativa/resumenInformativo.pdf";
+            window.open(url, '_blank');
+            break;
+        case 20:
+            var url = "https://www.cjf.gob.mx/documentos/notasInformativas/docsNotasInformativas/2023/notaInformativa25.pdf";
+            window.open(url, '_blank');
+            break;
+        case 21:
+            var url = "https://www.youtube.com/embed/ir9BCrfBzy0?autoplay=1";
+            $.fancybox({
+                type: "iframe",
+                href: url,
+                // other API options
+            });
+            //window.open(url, '_blank');
+            break;
+
+    }
+
+
+
+}
+</script>
+
+</html>

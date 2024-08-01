@@ -1,0 +1,41 @@
+﻿<head>
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/script.min.js"></script>
+    <script src="../js/tab-navigator.js"></script>
+    <script src="../js/config.js"></script>
+    <script src="../js/generic.js"></script>
+    <link rel="stylesheet" href="css/salaPrensa.css" media="screen" onload="if(media!='screen')media='screen'" />
+    <script type="text/javascript">
+    function grand(h) {
+        iframe = document.getElementById("ifr")
+        iframe.height = h;
+    } //
+    </script>
+</head>
+
+<body>
+    <h2 tabindex="0" class="title-divider">Galer&iacute;a</h2>
+    <!--[if IE]>
+    <iframe id="ifr" name="ifr" src="//www.cjf.gob.mx/Appint/Galerias.aspx" height="850" frameBorder="0" style="width: 100%; border: none;">?</iframe>
+    <![endif]-->
+    <!--[if !IE]>-->
+    <ul id="ul-resources-boletin">
+        <li class="sublist">
+            <p id="text-subtitle" style="font-size: 1em!important;"></p>
+        </li>
+        <li class="sublist" style="display: none">
+            <a href="laJudicaturaHoy.htm?isBack=true" target="_self" style="cursor:pointer">
+                <i class="fa fa-long-arrow-left" aria-hidden="true"></i> Regresar</a>
+        </li>
+        <li class="sublist">
+            <iframe id="ifr" name="ifr" src="" height="850" style="width: 100%; border: none;" title="Galería del Consejo de la Judicatura Federal"></iframe>
+        </li>
+    </ul>
+    <!-- <![endif]-->
+    <script>
+    $(document).ready(function() {
+
+    });
+    </script>
+</body>

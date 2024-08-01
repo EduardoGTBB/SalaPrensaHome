@@ -1,0 +1,904 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es-MX">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Audios - La Judicatura hoy</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Audios-La Judicatura hoy | Consejo de la Judicatura Federal" />
+    <meta name="keywords" content="busqueda" />
+    <meta name="robots" content="index,follow" />
+    <link rel="stylesheet" href="../css/bootstrap.min.css" media="screen" onload="if(media!='screen')media='screen'" />
+    <link rel="stylesheet" href="../css/font-CJF.min.css" media="screen" onload="if(media!='screen')media='screen'" />
+    <link rel="stylesheet" href="../css/all.min.css" media="screen" onload="if(media!='screen')media='screen'" />
+    <link rel="stylesheet" href="https://www.cjf.gob.mx/css/cjf.css" media="screen" onload="if(media!='screen')media='screen'" />
+    <link rel="stylesheet" href="css/salaPrensa.css" media="screen" onload="if(media!='screen')media='screen'" />
+    <link rel="stylesheet" href="../css/font-awesome.min.css" media="screen" onload="if(media!='screen')media='screen'" />
+    <script>
+        function formButtonFever(formName, action) {
+        var myString = "document." + formName + "." + action + "();";
+        eval(myString);
+    }
+    </script>
+    <!--[if lt IE 9]>
+    <script type="text/javascript" src="plugins/html5shiv/dist/html5shiv.js"></script>
+    <script type="text/javascript" src="plugins/respond/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body><a id="top"></a>
+    <header id="navigation">
+        <div class="header-upper">
+            <form id="searchbox_008481728582972907838:aqkmikiniee" name="form1" class="container">
+                <div class="col-xs-2 col-md-6 col-lg-7 text-right search-text">Buscar</div>
+                <div class="col-xs-8 col-md-5 col-lg-4">
+                    <input id="campoBusqueda" name="q" type="search" class="textoSeccion_P451 search-input form-control" />
+                    <label for="campoBusqueda" class="sr-only">Escriba los datos que necesita buscar</label>
+                </div>
+                <div class="col-xs-2 col-md-1 col-lg-1 text-left">
+                    <button type="submit" class="boton-busqueda" aria-label="Clic aquí para iniciar la busqueda"><span class="fa fa-search search-link" aria-hidden="true"></span></button>
+                </div>
+            </form>
+        </div>
+        <div class="header" data-toggle="clingify">
+            <div class="header-inner container">
+                <div class="navbar"><a href="http://www.cjf.gob.mx/" id="LogoImg" class="navbar-brand pull-left"><span class="fc fc-LogotipoCJFHorizontal" aria-hidden="true"></span><span class="sr-only">Logotipo institucional del Consejo de la Judicatura Federal</span></a>
+                    <div data-toggle="jpanel-menu" data-target=".navbar-collapse" data-direction="right" class="navbar-btn" aria-label="Botón para moviles"><span class="fa fa-bars" aria-hidden="true"></span></div>
+                    <nav class="navbar-collapse collapse">
+                        <ul class="nav navbar-nav" data-hover="dropdown">
+                            <li class="home-link"><a href="index.htm"><span class="sr-only">Botón para ir al inicio de la página</span><span class="fa fa-home" aria-hidden="true"></span></a></li>
+                            <li class="dropdown" id="subMenu1"></li>
+                            <li class="dropdown" id="subMenu2"></li>
+                            <li class="dropdown" id="subMenu3"></li>
+                            <li class="dropdown" id="subMenu4"></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <h1 class="sr-only">Contenido</h1>
+    <div id="content">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-3 col-lg-2 sidebar">
+                    <div class="section-menu">
+                        <ul role="tablist" class="nav nav-list">
+                            <li tabindex="0" class="nav-header">Sala de Prensa
+                                <br />Comunicaci&oacute;n Social
+                            </li>
+                            <li role="presentation">
+                                <a href="index.htm" role="tab" class="first">Inicio
+                                    <small>Sala Prensa / Consejo de la Judicatura </small>
+                                    <span class="fa fa-angle-left" aria-hidden="true"></span>
+                                </a>
+                            </li>
+                            <li role="presentation" class="">
+                                <a href="laJudicaturaHoy.htm" role="tab" aria-selected="true">La Judicatura hoy
+                                    <small>Consejo de la Judicatura</small>
+                                    <span class="fa fa-angle-right" aria-hidden="true"></span>
+                                </a>
+                            </li>
+                            <li role="presentation" class="nav-sublist1">
+                                <a href="contenidos.html" role="tab" aria-selected="true">Contenidos
+                                    <small>La Judicatura hoy</small>
+                                    <span class="fa fa-angle-right" aria-hidden="true"></span>
+                                </a>
+                            </li>
+                            <li role="presentation" class="nav-sublist1">
+                                <a href="contenidosPuntoDeVista.htm" role="tab" aria-selected="true">Punto de vista
+                                    <small>La Judicatura hoy</small>
+                                    <span class="fa fa-angle-right" aria-hidden="true"></span>
+                                </a>
+                            </li>
+                            <li role="presentation" class="nav-sublist1 hidden">
+                                <a href="contenidosJusticiaAldia.htm" role="tab" aria-selected="true">Justicia al día
+                                    <small>La Judicatura hoy</small>
+                                    <span class="fa fa-angle-right" aria-hidden="true"></span>
+                                </a>
+                            </li>
+                            <li role="presentation" class="nav-sublist1 hidden">
+                                <a href="contenidosVideos.htm" role="tab" aria-selected="true">Videos
+                                    <small>La Judicatura hoy</small>
+                                    <span class="fa fa-angle-right" aria-hidden="true"></span>
+                                </a>
+                            </li>
+                            <li role="presentation" class="active nav-sublist1">
+                                <a href="contenidosAudios.htm" role="tab" aria-selected="true">Audios
+                                    <small>La Judicatura hoy</small>
+                                    <span class="fa fa-angle-right" aria-hidden="true"></span>
+                                </a>
+                            </li>
+                            <li role="presentation" class="nav-sublist1 hidden">
+                                <a href="contenidosJusticiaEnElMundo.htm" role="tab" aria-selected="true">Justicia en el Mundo
+                                    <small>La Judicatura hoy</small>
+                                    <span class="fa fa-angle-right" aria-hidden="true"></span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-9 col-lg-10">
+                    <nav aria-label="breadcrumbs">
+                        <ol class="breadcrumb">
+                            <li>
+                                <a href="../index.htm">
+                                    <span class="sr-only">Botón para ir al inicio de la página</span>
+                                    <span class="fa fa-home" aria-hidden="true"></span>
+                                </a>
+                            </li>
+                            <li tabindex="0"> <a href="index.htm" target="_self">Sala de Prensa</a>
+                            </li>
+                            <li tabindex="0"><a href="laJudicaturaHoy.htm?isBack=true" target="_self">La Judicatura hoy</a>
+                            </li>
+                            <li tabindex="0"><a href="contenidos.html" target="_self">Contenidos</a>
+                            </li>
+                            <li class="active" tabindex="0">Audios
+                            </li>
+                        </ol>
+                    </nav>
+                    <div class="row col-md-12 col-lg-9">
+                        <h2 class="title-divider">Audios</h2>
+                        <div class="col-md-offset-1 col-md-11 text-left">
+                            <p id="text-subtitle" style="font-size: 1em!important;"></p>
+                            <iframe id="inlineFrameExample" title="Inline Frame Example" class="margin-top-xs margin-bottom-md" width="100%" style="display:none" height="650px" src=""></iframe>
+                        </div>
+                        <div class="row">
+                            <div style="margin: 0 auto; width: 95%" id="divHistorico">
+                                <div class="col-md-12">
+                                    <div role="tabpanel">
+                                        <ul class="nav nav-tabs" role="tablist">
+                                            <li class="active">
+                                                <a href="#2024" aria-controls="2024" role="tab" data-toggle="tab">2024
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#2023" aria-controls="2023" role="tab" data-toggle="tab">2023
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="tab-content">
+                                        <div role="tabpanel" class="tab-pane active table-responsive" id="2024">
+                                            <table class="table" style="width: 100%">
+                                                <thead>
+                                                    <tr>
+                                                        <th style="width: 50%; cursor: pointer;">
+                                                            <div class="text-left" style="padding-left: 30px">Nota
+                                                            </div>
+                                                        </th>
+                                                        <th style="width:30%;"><i class="fa fa-calendar-o" aria-hidden="true"></i></th>
+                                                        <th style="width:20%;">
+                                                            <div class="text-center">Audio</div>
+                                                        </th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <td>
+                                                            <div class="text-left" style="padding-left: 30px">
+                                                                <strong>Lo más relevante de La Judicatura hoy</strong><br />Boletín 33</div>
+                                                        </td>
+                                                        <td>16/04/2024</td>
+                                                        <td style="padding: 15px 15px">
+                                                            <div class="text-center">
+                                                                <a href="" data-genericfile="audio_encabezado_boletin_33.mp3" data-genericfiletitle="Lo más relevante de La Judicatura hoy" id="boletin-33" data-subtitle="Boletín 33" target="_self" onclick="encodeStr(this,event)" title="Archivo de audio"><i class="fa fa-file-audio-o fa-lg"></i></a>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            <div class="text-left" style="padding-left: 30px">
+                                                                <strong>Lo más relevante de La Judicatura hoy</strong><br />Boletín 32</div>
+                                                        </td>
+                                                        <td>09/04/2024</td>
+                                                        <td style="padding: 15px 15px">
+                                                            <div class="text-center">
+                                                                <a href="" data-genericfile="audio_encabezado_boletin_32.mp3" data-genericfiletitle="Lo más relevante de La Judicatura hoy" id="boletin-32" data-subtitle="Boletín 32" target="_self" onclick="encodeStr(this,event)" title="Archivo de audio"><i class="fa fa-file-audio-o fa-lg"></i></a>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            <div class="text-left" style="padding-left: 30px">
+                                                                <strong>Lo que hay que recordar.</strong><br />Día de las Américas
+                                                            </div>
+                                                        </td>
+                                                        <td>09/04/2024</td>
+                                                        <td style="padding: 15px 15px">
+                                                            <div class="text-center">
+                                                                <a href="" data-genericfile="audio_efemerides_boletin_32.mp3" data-genericfiletitle="Día de las Américas" id="boletin-32a" data-subtitle="Boletín 32" target="_self" onclick="encodeStr(this,event)" title="Archivo de audio"><i class="fa fa-file-audio-o fa-lg"></i></a>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            <div class="text-left" style="padding-left: 30px">
+                                                                <strong>Lo que hay que recordar.</strong><br />Día Mundial de la Salud
+                                                            </div>
+                                                        </td>
+                                                        <td>02/04/2024</td>
+                                                        <td style="padding: 15px 15px">
+                                                            <div class="text-center">
+                                                                <a href="" data-genericfile="audio_efemerides_boletin_31.mp3" data-genericfiletitle="Día Mundial de la Salud " id="boletin-31a" data-subtitle="Boletín 31" target="_self" onclick="encodeStr(this,event)" title="Archivo de audio"><i class="fa fa-file-audio-o fa-lg"></i></a>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            <div class="text-left" style="padding-left: 30px">
+                                                                <strong>Lo más relevante de La Judicatura hoy</strong><br />Boletín 31</div>
+                                                        </td>
+                                                        <td>02/04/2024</td>
+                                                        <td style="padding: 15px 15px">
+                                                            <div class="text-center">
+                                                                <a href="" data-genericfile="audio_encabezado_boletin_31.mp3" data-genericfiletitle="Lo más relevante de La Judicatura hoy" id="boletin-31" data-subtitle="Boletín 31" target="_self" onclick="encodeStr(this,event)" title="Archivo de audio"><i class="fa fa-file-audio-o fa-lg"></i></a>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            <div class="text-left" style="padding-left: 30px">
+                                                                <strong>Lo más relevante de La Judicatura hoy</strong><br />Boletín 30</div>
+                                                        </td>
+                                                        <td>19/03/2024</td>
+                                                        <td style="padding: 15px 15px">
+                                                            <div class="text-center">
+                                                                <a href="" data-genericfile="audio_encabezado_boletin_30.mp3" data-genericfiletitle="Lo más relevante de La Judicatura hoy" id="boletin-30" data-subtitle="Boletín 30" target="_self" onclick="encodeStr(this,event)" title="Archivo de audio"><i class="fa fa-file-audio-o fa-lg"></i></a>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            <div class="text-left" style="padding-left: 30px">
+                                                                <strong>Lo que hay que recordar.</strong><br />Día mundial del agua
+                                                            </div>
+                                                        </td>
+                                                        <td>19/03/2024</td>
+                                                        <td style="padding: 15px 15px">
+                                                            <div class="text-center">
+                                                                <a href="" data-genericfile="audio_efemerides_boletin_30.mp3" data-genericfiletitle="Día mundial del agua" id="boletin-30a" data-subtitle="Boletín 30" target="_self" onclick="encodeStr(this,event)" title="Archivo de audio"><i class="fa fa-file-audio-o fa-lg"></i></a>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            <div class="text-left" style="padding-left: 30px">
+                                                                <strong>Lo más relevante de La Judicatura hoy</strong><br />Boletín 29</div>
+                                                        </td>
+                                                        <td>12/03/2024</td>
+                                                        <td style="padding: 15px 15px">
+                                                            <div class="text-center">
+                                                                <a href="" data-genericfile="audio_encabezado_boletin_29.mp3" data-genericfiletitle="Lo más relevante de La Judicatura hoy" id="boletin-29" data-subtitle="Boletín 29" target="_self" onclick="encodeStr(this,event)" title="Archivo de audio"><i class="fa fa-file-audio-o fa-lg"></i></a>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            <div class="text-left" style="padding-left: 30px">
+                                                                <strong>Lo más relevante de La Judicatura hoy</strong><br />Boletín 28</div>
+                                                        </td>
+                                                        <td>05/03/2024</td>
+                                                        <td style="padding: 15px 15px">
+                                                            <div class="text-center">
+                                                                <a href="" data-genericfile="audio_encabezado_boletin_28.mp3" data-genericfiletitle="Lo más relevante de La Judicatura hoy" id="boletin-28" data-subtitle="Boletín 28" target="_self" onclick="encodeStr(this,event)" title="Archivo de audio"><i class="fa fa-file-audio-o fa-lg"></i></a>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            <div class="text-left" style="padding-left: 30px">
+                                                                <strong>Lo más relevante de La Judicatura hoy</strong><br />Boletín 27</div>
+                                                        </td>
+                                                        <td>27/02/2024</td>
+                                                        <td style="padding: 15px 15px">
+                                                            <div class="text-center">
+                                                                <a href="" data-genericfile="audio_encabezado_boletin_27.mp3" data-genericfiletitle="Lo más relevante de La Judicatura hoy" id="boletin-27" data-subtitle="Boletín 27" target="_self" onclick="encodeStr(this,event)" title="Archivo de audio"><i class="fa fa-file-audio-o fa-lg"></i></a>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            <div class="text-left" style="padding-left: 30px">
+                                                                <strong>Lo más relevante de La Judicatura hoy</strong><br />Boletín 26</div>
+                                                        </td>
+                                                        <td>20/02/2024</td>
+                                                        <td style="padding: 15px 15px">
+                                                            <div class="text-center">
+                                                                <a href="" data-genericfile="audio_encabezado_boletin_26.mp3" data-genericfiletitle="Lo más relevante de La Judicatura hoy" id="boletin-26" data-subtitle="Boletín 26" target="_self" onclick="encodeStr(this,event)" title="Archivo de audio"><i class="fa fa-file-audio-o fa-lg"></i></a>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            <div class="text-left" style="padding-left: 30px">
+                                                                <strong>Lo más relevante de La Judicatura hoy</strong><br />Boletín 25</div>
+                                                        </td>
+                                                        <td>13/02/2024</td>
+                                                        <td style="padding: 15px 15px">
+                                                            <div class="text-center">
+                                                                <a href="" data-genericfile="audio_encabezado_boletin_25.mp3" data-genericfiletitle="Lo más relevante de La Judicatura hoy" id="boletin-25" data-subtitle="Boletín 25" target="_self" onclick="encodeStr(this,event)" title="Archivo de audio"><i class="fa fa-file-audio-o fa-lg"></i></a>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            <div class="text-left" style="padding-left: 30px">
+                                                                <strong>Lo que hay que recordar.</strong><br />El Síndrome de Asperger y la justicia. Boletín 25
+                                                            </div>
+                                                        </td>
+                                                        <td>13/02/2024</td>
+                                                        <td style="padding: 15px 15px">
+                                                            <div class="text-center">
+                                                                <a href="" data-genericfile="audio_efemerides_boletin_25.mp3" data-genericfiletitle="Lo que hay que recordar. El Síndrome de Asperger y la justicia" id="boletin-25a" data-subtitle="Boletín 25" target="_self" onclick="encodeStr(this,event)" title="Archivo de audio"><i class="fa fa-file-audio-o fa-lg"></i></a>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            <div class="text-left" style="padding-left: 30px">
+                                                                <strong>Lo más relevante de La Judicatura hoy</strong><br />Boletín 24
+                                                            </div>
+                                                        </td>
+                                                        <td>06/02/2024</td>
+                                                        <td style="padding: 15px 15px">
+                                                            <div class="text-center">
+                                                                <a href="" data-genericfile="audio_encabezado_boletin_24.mp3" data-genericfiletitle="Lo más relevante de La Judicatura hoy" id="boletin-24" data-subtitle="Boletín 24" target="_self" onclick="encodeStr(this,event)" title="Archivo de audio"><i class="fa fa-file-audio-o fa-lg"></i></a>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            <div class="text-left" style="padding-left: 30px">
+                                                                <strong>Lo que hay que recordar.</strong><br />
+                                                                Reflexiones sobre la Constitución. Boletín 24
+                                                            </div>
+                                                        </td>
+                                                        <td>06/02/2024</td>
+                                                        <td style="padding: 15px 15px">
+                                                            <div class="text-center">
+                                                                <a href="" data-genericfile="audio_efemerides_boletin_24.mp3" data-genericfiletitle="Lo que hay que recordar.  Reflexiones sobre la Constitución." id="boletin-24a" data-subtitle="Boletín 24" target="_self" onclick="encodeStr(this,event)" title="Archivo de audio"><i class="fa fa-file-audio-o fa-lg"></i></a>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            <div class="text-left" style="padding-left: 30px">
+                                                                <strong>Justicia en el mundo.</strong><br />
+                                                                Las constituciones en el mundo. Boletín 24
+                                                            </div>
+                                                        </td>
+                                                        <td>06/02/2024</td>
+                                                        <td style="padding: 15px 15px">
+                                                            <div class="text-center">
+                                                                <a href="" data-genericfile="audio_justiciamundo_boletin_24.mp3" data-genericfiletitle="Las constituciones en el mundo" id="boletin-24b" data-subtitle="Boletín 24" target="_self" onclick="encodeStr(this,event)" title="Archivo de audio"><i class="fa fa-file-audio-o fa-lg"></i></a>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            <div class="text-left" style="padding-left: 30px">
+                                                                <strong>Lo más relevante de La Judicatura hoy</strong><br />Boletín 23
+                                                            </div>
+                                                        </td>
+                                                        <td>30/01/2024</td>
+                                                        <td style="padding: 15px 15px">
+                                                            <div class="text-center">
+                                                                <a href="" data-genericfile="audio_encabezado_boletin_23.mp3" data-genericfiletitle="Lo más relevante de La Judicatura hoy" id="boletin-23" data-subtitle="Boletín 23" target="_self" onclick="encodeStr(this,event)" title="Archivo de audio"><i class="fa fa-file-audio-o fa-lg"></i></a>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            <div class="text-left" style="padding-left: 30px">
+                                                                <strong>Lo más relevante de La Judicatura hoy</strong><br />Boletín 22
+                                                            </div>
+                                                        </td>
+                                                        <td>23/01/2024</td>
+                                                        <td style="padding: 15px 15px">
+                                                            <div class="text-center">
+                                                                <a href="" data-genericfile="audio_encabezado_boletin_22.mp3" data-genericfiletitle="Lo más relevante de La Judicatura hoy" id="boletin-22" data-subtitle="Boletín 22" target="_self" onclick="encodeStr(this,event)" title="Archivo de audio"><i class="fa fa-file-audio-o fa-lg"></i></a>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            <div class="text-left" style="padding-left: 30px">
+                                                                <strong>Lo más relevante de La Judicatura hoy</strong><br />Boletín 21
+                                                            </div>
+                                                        </td>
+                                                        <td>16/01/2024</td>
+                                                        <td style="padding: 15px 15px">
+                                                            <div class="text-center">
+                                                                <a href="" data-genericfile="audio_encabezado_boletin_21.mp3" data-genericfiletitle="Lo más relevante de La Judicatura hoy" id="boletin-21" data-subtitle="Boletín 21" target="_self" onclick="encodeStr(this,event)" title="Archivo de audio"><i class="fa fa-file-audio-o fa-lg"></i></a>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            <div class="text-left" style="padding-left: 30px">
+                                                                <strong>Natalicio de Miguel Ramón Sebastián Domínguez,</strong><br />primer presidente de la Corte Suprema de Justicia.
+                                                            </div>
+                                                        </td>
+                                                        <td>16/01/2024</td>
+                                                        <td style="padding: 15px 15px">
+                                                            <div class="text-center">
+                                                                <a href="" data-genericfile="audio_efemerides_boletin_21.mp3" data-genericfiletitle="Natalicio de Miguel Ramón Sebastián Domínguez" id="boletin-21a" data-subtitle="primer presidente de la Corte Suprema de Justicia" target="_self" onclick="encodeStr(this,event)" title="Archivo de audio"><i class="fa fa-file-audio-o fa-lg"></i></a>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            <div class="text-left" style="padding-left: 30px">
+                                                                <strong>Lo más relevante de La Judicatura hoy</strong><br />Boletín 20
+                                                            </div>
+                                                        </td>
+                                                        <td>09/01/2024</td>
+                                                        <td style="padding: 15px 15px">
+                                                            <div class="text-center">
+                                                                <a href="" data-genericfile="audio_encabezado_boletin_20.mp3" data-genericfiletitle="Lo más relevante de La Judicatura hoy" id="boletin-20" data-subtitle="Boletín 20" target="_self" onclick="encodeStr(this,event)" title="Archivo de audio"><i class="fa fa-file-audio-o fa-lg"></i></a>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            <div class="text-left" style="padding-left: 30px">
+                                                                <strong>30 años de historia del CJF </strong><br />Boletín 20
+                                                            </div>
+                                                        </td>
+                                                        <td>09/01/2024</td>
+                                                        <td style="padding: 15px 15px">
+                                                            <div class="text-center">
+                                                                <a href="" data-genericfile="audio_efemerides_boletin_20.mp3" data-genericfiletitle="30 años de historia del CJF" id="boletin-20a" data-subtitle="Boletín 20" target="_self" onclick="encodeStr(this,event)" title="Archivo de audio"><i class="fa fa-file-audio-o fa-lg"></i></a>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                        <div role="tabpanel" class="tab-pane  table-responsive" id="2023">
+                                            <table class="table" style="width: 100%">
+                                                <thead>
+                                                    <tr>
+                                                        <th style="width: 50%; cursor: pointer;">
+                                                            <div class="text-left" style="padding-left: 30px">Nota
+                                                            </div>
+                                                        </th>
+                                                        <th style="width:30%;"><i class="fa fa-calendar-o" aria-hidden="true"></i></th>
+                                                        <th style="width:20%;">
+                                                            <div class="text-center">Audio</div>
+                                                        </th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <td>
+                                                            <div class="text-left" style="padding-left: 30px">
+                                                                <strong>Lo más relevante de La Judicatura hoy</strong><br />Boletín 19
+                                                            </div>
+                                                        </td>
+                                                        <td>15/12/2023</td>
+                                                        <td style="padding: 15px 15px">
+                                                            <div class="text-center">
+                                                                <a href="" data-genericfile="audio_encabezado_boletin_19.mp3" data-genericfiletitle="Lo más relevante de La Judicatura hoy" id="boletin-19" data-subtitle="Boletín 19" target="_self" onclick="encodeStr(this,event)" title="Archivo de audio"><i class="fa fa-file-audio-o fa-lg"></i></a>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            <div class="text-left" style="padding-left: 30px">
+                                                                <strong>Lo que hay que recordar</strong><br />Día de los Derechos Humanos, Boletín 18
+                                                            </div>
+                                                        </td>
+                                                        <td>05/12/2023</td>
+                                                        <td style="padding: 15px 15px">
+                                                            <div class="text-center">
+                                                                <a href="" data-genericfile="audio_efemerides_boletin_18.mp3" data-genericfiletitle="Lo que hay que recordar: &#34Día de los Derechos Humanos &#34" id="boletin-18a" data-subtitle="Boletín 18" target="_self" onclick="encodeStr(this,event)" title="Archivo de audio"><i class="fa fa-file-audio-o fa-lg"></i></a>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            <div class="text-left" style="padding-left: 30px">
+                                                                <strong>Lo más relevante de La Judicatura hoy</strong><br />Boletín 18
+                                                            </div>
+                                                        </td>
+                                                        <td>05/12/2023</td>
+                                                        <td style="padding: 15px 15px">
+                                                            <div class="text-center">
+                                                                <a href="" data-genericfile="audio_encabezado_boletin_18.mp3" data-genericfiletitle="Lo más relevante de La Judicatura hoy" id="boletin-18" data-subtitle="Boletín 18" target="_self" onclick="encodeStr(this,event)" title="Archivo de audio"><i class="fa fa-file-audio-o fa-lg"></i></a>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            <div class="text-left" style="padding-left: 30px">
+                                                                <strong>Lo más relevante de La Judicatura hoy</strong><br />Boletín 17
+                                                            </div>
+                                                        </td>
+                                                        <td>28/11/2023</td>
+                                                        <td style="padding: 15px 15px">
+                                                            <div class="text-center">
+                                                                <a href="" data-genericfile="audio_encabezado_boletin_17.mp3" data-genericfiletitle="Lo más relevante de La Judicatura hoy" id="boletin-17" data-subtitle="Boletín 17" target="_self" onclick="encodeStr(this,event)" title="Archivo de audio"><i class="fa fa-file-audio-o fa-lg"></i></a>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            <div class="text-left" style="padding-left: 30px">
+                                                                <strong>Lo más relevante de La Judicatura hoy</strong><br />Boletín 16
+                                                            </div>
+                                                        </td>
+                                                        <td>21/11/2023</td>
+                                                        <td style="padding: 15px 15px">
+                                                            <div class="text-center">
+                                                                <a href="" data-genericfile="audio_encabezado_boletin_16.mp3" data-genericfiletitle="Lo más relevante de La Judicatura hoy" id="boletin-16a" data-subtitle="Boletín 16" target="_self" onclick="encodeStr(this,event)" title="Archivo de audio"><i class="fa fa-file-audio-o fa-lg"></i></a>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            <div class="text-left" style="padding-left: 30px">
+                                                                <strong>Día internacional de la eliminación de la violencia contra la mujer</strong><br />Boletín 16
+                                                            </div>
+                                                        </td>
+                                                        <td>21/11/2023</td>
+                                                        <td style="padding: 15px 15px">
+                                                            <div class="text-center">
+                                                                <a href="" data-genericfile="audio_efemerides_boletin_16.mp3" data-genericfiletitle="Día internacional de la eliminación de la violencia contra la mujer" id="boletin-16" data-subtitle="Boletín 16" target="_self" onclick="encodeStr(this,event)" title="Archivo de audio"><i class="fa fa-file-audio-o fa-lg"></i></a>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            <div class="text-left" style="padding-left: 30px">
+                                                                <strong>Lo más relevante de La Judicatura hoy</strong><br />Boletín 15
+                                                            </div>
+                                                        </td>
+                                                        <td>14/11/2023</td>
+                                                        <td style="padding: 15px 15px">
+                                                            <div class="text-center">
+                                                                <a href="" data-genericfile="audio_encabezado_boletin_15.mp3" data-genericfiletitle="Lo más relevante de La Judicatura hoy" id="boletin-15" data-subtitle="Boletín 15" target="_self" onclick="encodeStr(this,event)" title="Archivo de audio"><i class="fa fa-file-audio-o fa-lg"></i></a>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            <div class="text-left" style="padding-left: 30px">
+                                                                <strong>Lo que hay que recordar</strong><br />Asalto a tren de Chihuahua, Boletín 15
+                                                            </div>
+                                                        </td>
+                                                        <td>14/11/2023</td>
+                                                        <td style="padding: 15px 15px">
+                                                            <div class="text-center">
+                                                                <a href="" data-genericfile="audio_efemerides_boletin_15.mp3" data-genericfiletitle="Lo que hay que recordar: &#34Asalto a tren de Chihuahua &#34" id="boletin-15a" data-subtitle="Boletín 15" target="_self" onclick="encodeStr(this,event)" title="Archivo de audio"><i class="fa fa-file-audio-o fa-lg"></i></a>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            <div class="text-left" style="padding-left: 30px">
+                                                                <strong>Lo más relevante de La Judicatura hoy</strong><br />Boletín 14
+                                                            </div>
+                                                        </td>
+                                                        <td>07/11/2023</td>
+                                                        <td style="padding: 15px 15px">
+                                                            <div class="text-center">
+                                                                <a href="" data-genericfile="audio_encabezado_boletin_14.mp3" data-genericfiletitle="Lo más relevante de La Judicatura hoy" id="boletin-14" data-subtitle="Boletín 14" target="_self" onclick="encodeStr(this,event)" title="Documento en formato PDF"><i class="fa fa-file-audio-o fa-lg"></i></a>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            <div class="text-left" style="padding-left: 30px">
+                                                                <strong>Escocia, origen del Halloween </strong><br />Boletín 13
+                                                            </div>
+                                                        </td>
+                                                        <td>31/10/2023</td>
+                                                        <td style="padding: 15px 15px">
+                                                            <div class="text-center">
+                                                                <a href="resourcesBoletinHoy.html?file=audio_justicia_mundo_boletin_13.mp3&genericFileTitle=Escocia,%20origen%20del%20Halloween.%20Bolet%C3%ADn%2013" target="_self" title=""><i class="fa fa-file-audio-o fa-lg"></i></a>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            <div class="text-left" style="padding-left: 30px">
+                                                                <strong>Lo que hay que recordar </strong><br />D&iacute;a de muertos
+                                                            </div>
+                                                        </td>
+                                                        <td>31/10/2023</td>
+                                                        <td style="padding: 15px 15px">
+                                                            <div class="text-center">
+                                                                <a href="resourcesBoletinHoy.html?file=audio_efemerides_boletin_13.mp3&genericFileTitle=D%C3%ADa+de+Muertos,%20Bolet%C3%ADn%2013" target="_self" title="asfasdf"><i class="fa fa-file-audio-o fa-lg"></i></a>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            <div class="text-left" style="padding-left: 30px">
+                                                                <strong>Lo más relevante de La Judicatura hoy</strong><br />Boletín 12
+                                                            </div>
+                                                        </td>
+                                                        <td>24/10/2023</td>
+                                                        <td style="padding: 15px 15px">
+                                                            <div class="text-center">
+                                                                <a href="" data-genericfile="audio_encabezado_boletin_12.mp3" data-genericfiletitle="Lo más relevante de La Judicatura hoy" id="boletin-13" data-subtitle="Boletín 12" target="_self" onclick="encodeStr(this,event)" title="Documento en formato PDF"><i class="fa fa-file-audio-o fa-lg"></i>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            <div class="text-left" style="padding-left: 30px">
+                                                                <strong>Lo más relevante de La Judicatura hoy</strong><br />Boletín 11
+                                                            </div>
+                                                        </td>
+                                                        <td>17/10/2023</td>
+                                                        <td style="padding: 15px 15px">
+                                                            <div class="text-center">
+                                                                <a href="" data-genericfile="audio_encabezado_boletin_11.mp3" data-genericfiletitle="Lo más relevante de La Judicatura hoy" id="boletin-12" data-subtitle="Boletín 11" target="_self" onclick="encodeStr(this,event)" title="Documento en formato PDF"><i class="fa fa-file-audio-o fa-lg"></i>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            <div class="text-left" style="padding-left: 30px">
+                                                                <strong>Lo más relevante de La Judicatura hoy</strong><br />Boletín 10
+                                                            </div>
+                                                        </td>
+                                                        <td>10/10/2023</td>
+                                                        <td style="padding: 15px 15px">
+                                                            <div class="text-center">
+                                                                <a href="" data-genericfile="audio_encabezado_boletin_10.mp3" data-genericfiletitle="Lo más relevante de La Judicatura hoy" id="boletin-11" data-subtitle="Boletín 10" target="_self" onclick="encodeStr(this,event)" title="Documento en formato PDF"><i class="fa fa-file-audio-o fa-lg"></i>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            <div class="text-left" style="padding-left: 30px">
+                                                                <strong>Lo que hay que recordar </strong><br />Constitución federal de 1824
+                                                            </div>
+                                                        </td>
+                                                        <td>03/10/2023</td>
+                                                        <td style="padding: 15px 15px">
+                                                            <div class="text-center">
+                                                                <a href="resourcesBoletinHoy.html?file=audio_efemerides_boletin_09.mp3&genericFileTitle=Constituci%C3%B3n%20federal%20de%201824" target="_self" title=""><i class="fa fa-file-audio-o fa-lg"></i></a>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            <div class="text-left" style="padding-left: 30px">
+                                                                <strong>Lo más relevante de La Judicatura hoy</strong><br />Boletín 09
+                                                            </div>
+                                                        </td>
+                                                        <td>03/10/2023</td>
+                                                        <td style="padding: 15px 15px">
+                                                            <div class="text-center">
+                                                                <a href="resourcesBoletinHoy.html?file=audio_encabezado_boletin_09.mp3&genericFileTitle=Lo%20m%C3%A1s%20relevante%20La%20Judicatura%20hoy,%20Bolet%C3%ADn%2009&bIsJudicaHoy=true" target="_self" title=""><i class="fa fa-file-audio-o fa-lg"></i></a>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            <div class="text-left" style="padding-left: 30px">
+                                                                <strong>Lo que hay que recordar </strong><br />Día por la Despenalización y Legalización del Aborto
+                                                            </div>
+                                                        </td>
+                                                        <td>26/09/2023</td>
+                                                        <td style="padding: 15px 15px">
+                                                            <div class="text-center">
+                                                                <a href="resourcesBoletinHoy.html?file=audio_efemerides_boletin_08.mp3&genericFileTitle=D%C3%ADa%20por%20la%20Despenalizaci%C3%B3n%20y%20Legalizaci%C3%B3n%20del%20Aborto" target="_self" title=""><i class="fa fa-file-audio-o fa-lg"></i></a>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            <div class="text-left" style="padding-left: 30px">
+                                                                <strong>Lo m&aacute;s relevante de La Judicatura hoy </strong><br />Boletín 08
+                                                            </div>
+                                                        </td>
+                                                        <td>26/09/2023</td>
+                                                        <td style="padding: 15px 15px">
+                                                            <div class="text-center">
+                                                                <a href="resourcesBoletinHoy.html?file=audio_encabezado_boletin_08.mp3&genericFileTitle=Lo más relevante de La Judicatura hoy" target="_self" title=""><i class="fa fa-file-audio-o fa-lg"></i></a>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            <div class="text-left" style="padding-left: 30px">
+                                                                <strong>Lo que hay que recordar</strong><br />Historia sobre un amparo escrito en una cajetilla de cigarros
+                                                            </div>
+                                                        </td>
+                                                        <td>19/09/2023</td>
+                                                        <td style="padding: 15px 15px">
+                                                            <div class="text-center">
+                                                                <a href="resourcesBoletinHoy.html?file=audio_podcast_reflexiones_boletin_06.mp3&genericFileTitle=Historia sobre un amparo escrito en una cajetilla de cigarros" target="_self" title=""><i class="fa fa-file-audio-o fa-lg"></i></a>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            <div class="text-left" style="padding-left: 30px">
+                                                                <strong>Lo más relevante de La Judicatura hoy</strong><br />Boletín 06
+                                                            </div>
+                                                        </td>
+                                                        <td>12/09/2023</td>
+                                                        <td style="padding: 15px 15px">
+                                                            <div class="text-center">
+                                                                <a href="resourcesBoletinHoy.html?file=audio_encabezado_boletin_06.mp3&genericFileTitle=Lo%20más%20relevante%20de%20la%20Judicatura%20hoy" target="_self" title=""><i class="fa fa-file-audio-o fa-lg"></i></a>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            <div class="text-left" style="padding-left: 30px">
+                                                                <strong>Lo más relevante de La Judicatura hoy</strong><br />Boletín 05
+                                                            </div>
+                                                        </td>
+                                                        <td>05/09/2023</td>
+                                                        <td style="padding: 15px 15px">
+                                                            <div class="text-center">
+                                                                <a href="resourcesBoletinHoy.html?file=audio_encabezado_boletin_05.mp3&genericFileTitle=Lo%20más%20relevante%20de%20la%20Judicatura%20hoy" target="_self" title=""><i class="fa fa-file-audio-o fa-lg"></i></a>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            <div class="text-left" style="padding-left: 30px">
+                                                                <strong>Lo más relevante de La Judicatura hoy</strong><br />Boletín 04
+                                                            </div>
+                                                        </td>
+                                                        <td>29/08/2023</td>
+                                                        <td style="padding: 15px 15px">
+                                                            <div class="text-center">
+                                                                <a href="resourcesBoletinHoy.html?file=audio_encabezado_boletin_04.mp3&genericFileTitle=Lo+más+relevante+de+La+Judicatura+hoy%2C+Boletín+03." target="_self" title=""><i class="fa fa-file-audio-o fa-lg"></i></a>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            <div class="text-left" style="padding-left: 30px">
+                                                                <strong>Lo más relevante de La Judicatura hoy</strong><br />Boletín 03
+                                                            </div>
+                                                        </td>
+                                                        <td>22/08/2023</td>
+                                                        <td style="padding: 15px 15px">
+                                                            <div class="text-center">
+                                                                <a href="resourcesBoletinHoy.html?file=audio_encabezado_boletin_03.mp3&genericFileTitle=Lo+más+relevante+de+La+Judicatura+hoy%2C+Boletín+03." target="_self" title=""><i class="fa fa-file-audio-o fa-lg"></i></a>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            <div class="text-left" style="padding-left: 30px">
+                                                                <strong>Lo más relevante de La Judicatura hoy</strong><br />Boletín 02
+                                                            </div>
+                                                        </td>
+                                                        <td>15/08/2023</td>
+                                                        <td style="padding: 15px 15px">
+                                                            <div class="text-center">
+                                                                <a href="resourcesBoletinHoy.html?file=audio_encabezado_boletin_02.mp3&genericFileTitle=Lo+más+relevante+de+La+Judicatura+hoy%2C+Boletín+02." target="_self" title=""><i class="fa fa-file-audio-o fa-lg"></i></a>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            <div class="text-left" style="padding-left: 30px">
+                                                                <strong>Lo que hay que recordar</strong><br />Día Internacional de los Pueblos Indígenas
+                                                            </div>
+                                                        </td>
+                                                        <td>03/08/2023</td>
+                                                        <td style="padding: 15px 15px">
+                                                            <div class="text-center">
+                                                                <a href="resourcesBoletinHoy.html?file=audio_efemerides_boletin_01.mp3&genericFileTitle=Día Internacional de los Pueblos Indígenas, Boletín 01." target="_self" title=""><i class="fa fa-file-audio-o fa-lg"></i></a>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            <div class="text-left" style="padding-left: 30px">
+                                                                <strong>Escúchanos</strong><br />Lo más relevante de la Judicatura hoy
+                                                            </div>
+                                                        </td>
+                                                        <td>03/08/2023</td>
+                                                        <td style="padding: 15px 15px">
+                                                            <div class="text-center">
+                                                                <a href="resourcesBoletinHoy.html?file=audio_encabezado_boletin_01.mp3&genericFileTitle=Lo%20m%C3%A1s%20relevante%20La%20Judicatura%20hoy,%20Bolet%C3%ADn%2001" target="_self" title=""><i class="fa fa-file-audio-o fa-lg"></i></a>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer id="footer"></footer>
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/script.min.js"></script>
+    <script src="../js/tab-navigator.js"></script>
+    <script src="../js/config.js"></script>
+    <script src="../js/generic.js"></script>
+    <script src="//www.cjf.gob.mx/cdn/js/micrositios/config.js"></script>
+    <script>
+    //GetTagSource();
+    var $_GET = $.requestParams();
+
+    jQuery(document).ready(function($) {
+        GetTagSource();
+        /*tabHandler(location.hash);
+        $('a[data-toggle="tab"]').on('shown.bs.tab', function(e) {
+            tabHandler(e.target.hash);
+        });*/
+
+        if ($_GET['idBoletin'] != null)
+            encodeStr(document.getElementById($_GET['idBoletin']), null);
+        else {
+            if ($_GET['genericFile'] != null && $_GET['genericFileTitle'] != null) {
+                showOnlyIframe('inlineFrameExample', $_GET['genericFile'], $_GET['genericFileTitle']);
+            }
+        }
+    });
+
+    function showOnlyIframe(objecID, pdfUrl, pdfTitle) {
+        if (objecID != null) {
+
+            $("#" + objecID).toggle();
+            $("#divHistorico").toggle();
+
+            //var _dataPdfTarget = 
+            var _pluginPdfUrl = "plugins/pdfjs/web/viewer.html?file=+../../../resources%2FlaJudicaturaHoy%2F" + pdfUrl;
+
+            $("#" + objecID).attr("src", _pluginPdfUrl);
+            $("#" + objecID).load(function(event) {
+
+                $("#text-subtitle").text(pdfTitle);
+            });
+
+        }
+    }
+
+
+    function encodeStr(objectDom, evt) {
+        if (evt != null)
+            evt.preventDefault();
+
+        var $_objectDom = $(objectDom);
+        var _href = "";
+        _href = "resourcesBoletinHoy.html" +
+            `?file=${encodeURIComponent($(objectDom).attr("data-genericFile"))}` +
+            `&genericFileTitle=${encodeURIComponent($(objectDom).attr("data-genericFileTitle"))}` + ", " + `${encodeURIComponent($(objectDom).attr("data-subtitle"))}`;
+
+        if ($_GET['bIsJudicaHoy'] != null)
+            _href += "&bIsJudicaHoy=1"
+
+        document.location.href = _href;
+        //console.log(_href);
+        //console.log(btoa(_href));
+        //2023%2Fdocumentos%2fnota_punto_de_vista_//boletin_05.pdf&genericFileTitle=Barbieland%20y%20la%20igualdad&subtitle=Magistrada%20Lilia%20Mónica%20López%20Benítez" $_objectDom
+        //$_objectDom.href(_href);
+        //console.log($(objectDom).attr("data-genericFile"));
+    }
+
+    /*function encodeStr() {
+        console.log();
+    }*/
+
+
+    function decodeStr() {
+        console.log(atob(str));
+    }
+    </script>
+</body>
+
+</html>

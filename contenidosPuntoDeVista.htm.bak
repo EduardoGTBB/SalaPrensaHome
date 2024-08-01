@@ -1,0 +1,449 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es-MX">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Punto de Vista</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Punto de Vista - La Judicatura hoy | Consejo de la Judicatura Federal" />
+    <meta name="keywords" content="busqueda" />
+    <meta name="robots" content="index,follow" />
+    <link rel="stylesheet" href="../css/bootstrap.min.css" media="screen" onload="if(media!='screen')media='screen'" />
+    <link rel="stylesheet" href="../css/font-CJF.min.css" media="screen" onload="if(media!='screen')media='screen'" />
+    <link rel="stylesheet" href="https://www.cjf.gob.mx/css/cjf.css" media="screen" onload="if(media!='screen')media='screen'" />
+    <link rel="stylesheet" href="css/salaPrensa.css" media="screen" onload="if(media!='screen')media='screen'" />
+    <link rel="stylesheet" href="../css/font-awesome.min.css" media="screen" onload="if(media!='screen')media='screen'" />
+    <script>
+        function formButtonFever(formName, action) {
+        var myString = "document." + formName + "." + action + "();";
+        eval(myString);
+    }
+    </script>
+    <style type="text/css">
+    span.subtitle {
+        display: block;
+        /*color: #24135f;
+        font-weight: bold;*/
+    }
+    </style>
+    <!--[if lt IE 9]>
+    <script type="text/javascript" src="plugins/html5shiv/dist/html5shiv.js"></script>
+    <script type="text/javascript" src="plugins/respond/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body><a id="top"></a>
+    <header id="navigation">
+        <div class="header-upper">
+            <form id="searchbox_008481728582972907838:aqkmikiniee" name="form1" class="container">
+                <div class="col-xs-2 col-md-6 col-lg-7 text-right search-text">Buscar</div>
+                <div class="col-xs-8 col-md-5 col-lg-4">
+                    <input id="campoBusqueda" name="q" type="search" class="textoSeccion_P451 search-input form-control" />
+                    <label for="campoBusqueda" class="sr-only">Escriba los datos que necesita buscar</label>
+                </div>
+                <div class="col-xs-2 col-md-1 col-lg-1 text-left">
+                    <button type="submit" class="boton-busqueda" aria-label="Clic aquí para iniciar la busqueda"><span class="fa fa-search search-link" aria-hidden="true"></span></button>
+                </div>
+            </form>
+        </div>
+        <div class="header" data-toggle="clingify">
+            <div class="header-inner container">
+                <div class="navbar"><a href="http://www.cjf.gob.mx/" id="LogoImg" class="navbar-brand pull-left"><span class="fc fc-LogotipoCJFHorizontal" aria-hidden="true"></span><span class="sr-only">Logotipo institucional del Consejo de la Judicatura Federal</span></a>
+                    <div data-toggle="jpanel-menu" data-target=".navbar-collapse" data-direction="right" class="navbar-btn" aria-label="Botón para moviles"><span class="fa fa-bars" aria-hidden="true"></span></div>
+                    <nav class="navbar-collapse collapse">
+                        <ul class="nav navbar-nav" data-hover="dropdown">
+                            <li class="home-link"><a href="index.htm"><span class="sr-only">Botón para ir al inicio de la página</span><span class="fa fa-home" aria-hidden="true"></span></a></li>
+                            <li class="dropdown" id="subMenu1"></li>
+                            <li class="dropdown" id="subMenu2"></li>
+                            <li class="dropdown" id="subMenu3"></li>
+                            <li class="dropdown" id="subMenu4"></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <h1 class="sr-only">Contenido</h1>
+    <div id="content">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-3 col-lg-2 sidebar">
+                    <div class="section-menu">
+                        <ul role="tablist" class="nav nav-list">
+                            <li tabindex="0" class="nav-header">Sala de Prensa
+                                <br />Comunicaci&oacute;n Social
+                            </li>
+                            <li role="presentation">
+                                <a href="index.htm" role="tab" class="first">Inicio
+                                    <small>Sala Prensa / Consejo de la Judicatura </small>
+                                    <span class="fa fa-angle-left" aria-hidden="true"></span>
+                                </a>
+                            </li>
+                            <li role="presentation" class="">
+                                <a href="laJudicaturaHoy.htm" role="tab" aria-selected="true">La Judicatura hoy
+                                    <small>Consejo de la Judicatura</small>
+                                    <span class="fa fa-angle-right" aria-hidden="true"></span>
+                                </a>
+                            </li>
+                            <li role="presentation" class="nav-sublist1">
+                                <a href="contenidos.html" role="tab" aria-selected="true">Contenidos
+                                    <small>La Judicatura hoy</small>
+                                    <span class="fa fa-angle-right" aria-hidden="true"></span>
+                                </a>
+                            </li>
+                            <li role="presentation" class="active nav-sublist1">
+                                <a href="contenidosPuntoDeVista.htm" role="tab" aria-selected="true">Punto de vista
+                                    <small>La Judicatura hoy</small>
+                                    <span class="fa fa-angle-right" aria-hidden="true"></span>
+                                </a>
+                            </li>
+                            <li role="presentation" class="nav-sublist1 hidden">
+                                <a href="contenidosJusticiaAldia.htm" role="tab" aria-selected="true">Justicia al día
+                                    <small>La Judicatura hoy</small>
+                                    <span class="fa fa-angle-right" aria-hidden="true"></span>
+                                </a>
+                            </li>
+                            <li role="presentation" class="nav-sublist1 hidden">
+                                <a href="contenidosVideos.htm" role="tab" aria-selected="true">Videos
+                                    <small>La Judicatura hoy</small>
+                                    <span class="fa fa-angle-right" aria-hidden="true"></span>
+                                </a>
+                            </li>
+                            <li role="presentation" class="nav-sublist1">
+                                <a href="contenidosAudios.htm" role="tab" aria-selected="true">Audios
+                                    <small>La Judicatura hoy</small>
+                                    <span class="fa fa-angle-right" aria-hidden="true"></span>
+                                </a>
+                            </li>
+                            <li role="presentation" class="nav-sublist1 hidden">
+                                <a href="contenidosJusticiaEnElMundo.htm" role="tab" aria-selected="true">Justicia en el Mundo
+                                    <small>La Judicatura hoy</small>
+                                    <span class="fa fa-angle-right" aria-hidden="true"></span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-9 col-lg-10">
+                    <nav aria-label="breadcrumbs">
+                        <ol class="breadcrumb">
+                            <li>
+                                <a href="../index.htm">
+                                    <span class="sr-only">Botón para ir al inicio de la página</span>
+                                    <span class="fa fa-home" aria-hidden="true"></span>
+                                </a>
+                            </li>
+                            <li tabindex="0"> <a href="index.htm" target="_self">Sala de Prensa</a>
+                            </li>
+                            <li tabindex="0"><a href="laJudicaturaHoy.htm?isBack=true" target="_self">La Judicatura hoy</a>
+                            </li>
+                            <li tabindex="0"><a href="contenidos.html" target="_self">Contenidos</a>
+                            </li>
+                            <li class="active" tabindex="0">Punto de Vista
+                            </li>
+                        </ol>
+                    </nav>
+                    <h2 class="title-divider">Punto de vista</h2>
+                    <div class="row col-md-12 col-lg-9">
+                        <div class="col-md-offset-1 col-md-11 text-left">
+                            <div class="col-md-3 text-left" style="height: 40px">
+                                <a href="laJudicaturaHoy.htm?isBack=true" data-target="laJudicaturaHoy" class="hidden" target="_self" style="cursor:pointer; display: block;text-align: left;">
+                                    <i class="fa fa-long-arrow-left" aria-hidden="true"></i> Regresar</a>
+                            </div>
+                            <div class="col-md-9 text-right">
+                                <p id="text-subtitle" style="font-size: 1em!important;text-align: right!important">
+                                </p>
+                            </div>
+                            <div class="col-md-12">
+                                <iframe id="inlineFrameExample" title="" class="margin-top-xs margin-bottom-md" width="100%" style="display:none" height="650px" src=""></iframe>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div style="margin: 0 auto; width: 95%" id="divHistorico">
+                            <div class="col-md-12">
+                                <div role="tabpanel">
+                                    <ul class="nav nav-tabs" role="tablist">
+                                        <li class="active">
+                                            <a href="#2023" aria-controls="2023" role="tab" data-toggle="tab">2023
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="tab-content">
+                                    <div role="tabpanel" class="tab-pane active table-responsive" id="2023">
+                                        <table class="table" style="width: 100%" id="puntosDeVista">
+                                            <thead>
+                                                <tr>
+                                                    <th style="width: 50%; cursor: pointer;">
+                                                        <div class="text-left" style="padding-left: 30px">Nota
+                                                        </div>
+                                                    </th>
+                                                    <th style="width:30%;"><i class="fa fa-calendar-o" aria-hidden="true"></i></th>
+                                                    <th style="width:20%;">
+                                                        <div class="text-center">Documento</div>
+                                                    </th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>
+                                                        <div class="text-left" style="padding-left: 30px">
+                                                            <strong>Justicia social, de Cananea al nuevo sistema
+                                                                de justicia laboral
+                                                            </strong>
+                                                            <br>
+                                                            Magistrado Sergio Javier Molina Martínez
+                                                        </div>
+                                                    </td>
+                                                    <td>03/10/2023</td>
+                                                    <td style="padding: 15px 15px">
+                                                        <a href="" data-genericfile="2023/documentos/nota_punto_de_vista_boletin_09.pdf" data-genericfiletitle="JJusticia social, de Cananea al nuevo sistema
+de justicia laboral  
+" id="boletin-10" data-subtitle="Magistrado Sergio Javier Molina Martínez" target="_self" onclick="encodeStr(this,event)" title="Documento en formato PDF"><i class="fa fa-file-pdf-o fa-lg"></i></a>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <div class="text-left" style="padding-left: 30px">
+                                                            <strong>Juzgar con perspectiva de género</strong>
+                                                            <br>
+                                                            Magistrada Hortencia María Emilia Molina de la Puente
+                                                        </div>
+                                                    </td>
+                                                    <td>03/10/2023</td>
+                                                    <td style="padding: 15px 15px">
+                                                        <a href="" data-genericfile="2023/documentos/nota_punto_de_vista_boletin_09.pdf" data-genericfiletitle="Juzgar con perspectiva de género" id="boletin-09" data-subtitle="Magistrada Hortencia María Emilia Molina de la Puente" target="_self" onclick="encodeStr(this,event)" title="Documento en formato PDF"><i class="fa fa-file-pdf-o fa-lg"></i></a>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <div class="text-left" style="padding-left: 30px">
+                                                            <strong>Justicia con perspectiva de género para mujeres criminalizadas</strong>
+                                                            <br>
+                                                            Jueza Beatriz Eugenia Álvarez Rodríguez
+                                                        </div>
+                                                    </td>
+                                                    <td>26/09/2023</td>
+                                                    <td style="padding: 15px 15px">
+                                                        <a href="" data-genericfile="2023/documentos/nota_punto_de_vista_boletin_08.pdf" data-genericfiletitle="Justicia con perspectiva de género para mujeres criminalizadas" id="boletin-08" data-subtitle="Jueza Beatriz Eugenia Álvarez Rodríguez" target="_self" onclick="encodeStr(this,event)" title="Documento en formato PDF"><i class="fa fa-file-pdf-o fa-lg"></i></a>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <div class="text-left" style="padding-left: 30px">
+                                                            <strong>Lengua de se&ntilde;as mexicana y acceso a la justicia </strong><br />Magistrada, Taissia Cruz Parcero
+                                                        </div>
+                                                    </td>
+                                                    <td>19/09/2023</td>
+                                                    <td style="padding: 15px 15px">
+                                                        <div class="text-center">
+                                                            <a href="contenidosPuntoDeVista.htm?genericFile=2023%2Fdocumentos%2fnota_punto_de_vista_boletin_07.pdf&genericFileTitle=Lengua%20de%20se%C3%B1as%20mexicana%20y%20acceso%20a%20la%20justicia&subtitle=Magistrada,%20Taissia%20Cruz%20Parcero&bIsJudicaHoy=1" target="_self" title="Documento en formato PDF"><i class="fa fa-file-pdf-o fa-lg"></i></a>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <div class="text-left" style="padding-left: 30px">
+                                                            <strong>La importancia de los concursos de oposición en la Carrera Judicial</strong><br />Magistrada María de Lourdes Lozano Mendoza
+                                                        </div>
+                                                    </td>
+                                                    <td>12/09/2023</td>
+                                                    <td style="padding: 15px 15px">
+                                                        <div class="text-center">
+                                                            <a href="contenidosPuntoDeVista.htm?genericFile=2023%2Fdocumentos%2fnota_punto_de_vista_boletin_06.pdf&genericFileTitle=La%20importancia%20de%20los%20concursos%20de%20oposici%C3%B3n%20en%20la%20Carrera%20Judicial&subtitle=Magistrada María de Lourdes Lozano Mendoza" target="_self" title="Documento en formato PDF"><i class="fa fa-file-pdf-o fa-lg"></i></a>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <div class="text-left" style="padding-left: 30px">
+                                                            <strong>Barbieland y la igualdad</strong><br />Magistrada Lilia Mónica López Benítez
+                                                        </div>
+                                                    </td>
+                                                    <td>05/09/2023</td>
+                                                    <td style="padding: 15px 15px">
+                                                        <div class="text-center">
+                                                            <a href="contenidosPuntoDeVista.htm?genericFile=2023%2Fdocumentos%2fnota_punto_de_vista_boletin_05.pdf&genericFileTitle=Barbieland%20y%20la%20igualdad&subtitle=Magistrada%20Lilia%20Mónica%20López%20Benítez" data-genericFile="2023/documentos/nota_punto_de_vista_boletin_05.pdf" data-genericFileTitle="Barbieland y la igualdad" id="boletin-05" data-subtitle="Magistrada Lilia Mónica López Benítez" target="_self" onclick="encodeStr(this,event)" title="Documento en formato PDF"><i class="fa fa-file-pdf-o fa-lg"></i></a>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <div class="text-left" style="padding-left: 30px">
+                                                            <strong>Justicia con perspectiva de género para mujeres criminalizadas</strong>
+                                                            <br />
+                                                            Jueza Beatriz Eugenia Álvarez Rodríguez
+                                                        </div>
+                                                    </td>
+                                                    <td>25/09/2023</td>
+                                                    <td style="padding: 15px 15px">
+                                                        <a href="" data-genericFile="2023/documentos/nota_punto_de_vista_boletin_08.pdf" data-genericFileTitle="Justicia con perspectiva de género para mujeres criminalizadas" id="boletin-08" data-subtitle="Jueza Beatriz Eugenia Álvarez Rodríguez" target="_self" onclick="encodeStr(this,event)" title="Documento en formato PDF"><i class="fa fa-file-pdf-o fa-lg"></i></a>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <div class="text-left" style="padding-left: 30px">
+                                                            <strong>Justicia y migración</strong><br />Magistrado Octavio Ramos Ramos
+                                                        </div>
+                                                    </td>
+                                                    <td>29/08/2023</td>
+                                                    <td style="padding: 15px 15px">
+                                                        <div class="text-center">
+                                                            <a href="contenidosPuntoDeVista.htm?genericFile=2023%2Fdocumentos%2fnota_punto_de_vista_boletin_04.pdf&genericFileTitle=Justicia%20y%20migraci%C3%B3n&subtitle=Magistrado%20Octavio%20Ramos%20Ramos&bisjudicahoy=1" target="_self" title="Documento en formato PDF"><i class="fa fa-file-pdf-o fa-lg"></i></a>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <div class="text-left" style="padding-left: 30px">
+                                                            <strong>La tecnología en el quehacer jurisdiccional</strong><br />Magistrada Adriana Matzayani Sánchez Romo
+                                                        </div>
+                                                    </td>
+                                                    <td>22/08/2023</td>
+                                                    <td style="padding: 15px 15px">
+                                                        <div class="text-center">
+                                                            <a href="contenidosPuntoDeVista.htm?genericFile=2023%2Fdocumentos%2fnota_punto_de_vista_boletin_03.pdf&genericFileTitle=La%20tecnolog%C3%ADa%20en%20el%20quehacer%20jurisdiccional&subtitle=Magistrada%20Adriana%20Matzayani%20S%C3%A1nchez%20Romo&bIsJudicaHoy=1" target="_self" title="Documento en formato PDF"><i class="fa fa-file-pdf-o fa-lg"></i></a>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <div class="text-left" style="padding-left: 30px">
+                                                            <strong>Mesas de Diálogo sobre el Delito de Trata de Personas</strong><br />Magistrada Rosa Elena González Tirado
+                                                        </div>
+                                                    </td>
+                                                    <td>15/08/2023</td>
+                                                    <td style="padding: 15px 15px">
+                                                        <div class="text-center">
+                                                            <a href="contenidosPuntoDeVista.htm?genericFile=2023%2Fdocumentos%2fnota_punto_de_vista_boletin_02.pdf&genericFileTitle=Mesas%20de%20Dia%CC%81logo%20sobre%20el%20Delito%20de%20Trata%20de%20Personas%20&subtitle=Magistrada%20Rosa%20Elena%20Gonza%CC%81lez%20Tirado" target="_self" title="Documento en formato PDF"><i class="fa fa-file-pdf-o fa-lg"></i></a>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <div class="text-left" style="padding-left: 30px">
+                                                            <strong>Justicia imparcial</strong><br />Ministra Presidenta Norma Lucía Piña Hdez.
+                                                        </div>
+                                                    </td>
+                                                    <td>03/08/2023</td>
+                                                    <td style="padding: 15px 15px">
+                                                        <div class="text-center">
+                                                            <a href="contenidosPuntoDeVista.htm?genericFile=2023%2Fdocumentos%2fnota_principal_boletin_01.pdf&genericFileTitle=Justicia%20imparcial%20&subtitle=Ministra%20Presidenta%20Norma%20Lucía%20Piña%20Hdez." target="_self" title="Documento en formato PDF"><i class="fa fa-file-pdf-o fa-lg"></i></a>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <footer id="footer"></footer>
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/script.min.js"></script>
+    <script src="../js/tab-navigator.js"></script>
+    <script src="../js/config.js"></script>
+    <script src="../js/generic.js"></script>
+    <script src="//www.cjf.gob.mx/cdn/js/micrositios/config.js"></script>
+    <script>
+    GetTagSource();
+    var $_GET = $.requestParams();
+
+    $.each($("#puntosDeVista a[target='_self'"), function(i, val) {
+        var $_href = val.href.toLowerCase();
+        var _index = val.href.toLowerCase().indexOf("&bisjudicahoy=1");
+        if (_index >= 0)
+            $(this).attr("href", val.href.substring(0, _index)); //console.log($(this).attr("href", val.href.substring(0, _index))); //.toLowerCase().indexOf("&bisjudicahoy=1")
+
+    });
+
+    jQuery(document).ready(function($) {
+        //GetTagSource();
+        /*tabHandler(location.hash);
+        $('a[data-toggle="tab"]').on('shown.bs.tab', function(e) {
+            tabHandler(e.target.hash);
+        });*/
+
+        if ($_GET['idBoletin'] != null)
+            encodeStr(document.getElementById($_GET['idBoletin']), null);
+        else {
+
+            if ($_GET['genericFile'] != null && $_GET['genericFileTitle'] != null && $_GET['subtitle'] != null) {
+                showOnlyIframe('inlineFrameExample', $_GET['genericFile'], $_GET['genericFileTitle'], $_GET['subtitle']);
+            }
+
+            if ($_GET['bIsJudicaHoy'] != null) {
+                //$("#ul-resources-boletin li:nth-child(2)").removeClass("hidden");
+                $("a[data-target$='laJudicaturaHoy'].hidden").removeClass("hidden");
+            }
+        }
+
+    });
+
+    function showOnlyIframe(objecID, pdfUrl, pdfTitle, pdfSubtitle) {
+
+        if (objecID != null) {
+
+            $("#" + objecID).toggle();
+            $("#divHistorico").toggle();
+
+            //var _dataPdfTarget = 
+            var _pluginPdfUrl = "plugins/pdfjs/web/viewer.html?file=%2F%2Fwww.cjf.gob.mx%2FsalaPrensa%2Fresources%2FlaJudicaturaHoy%2F" + pdfUrl;
+            //alert(_pluginPdfUrl);
+            $("#" + objecID).attr("src", _pluginPdfUrl);
+            $("#" + objecID).load(function(event) {
+                $("#text-subtitle").text(pdfTitle);
+                //alert(pdfSubtitle);
+                $("#text-subtitle").html("<strong>" + $("#text-subtitle").html() + "</strong><span class=\"subtitle\"></span>");
+                $("#text-subtitle span.subtitle").text(pdfSubtitle);
+
+            });
+
+        }
+    }
+
+    function decodeQueryParam(p) {
+        return decodeURIComponent(p.replace(/\+/g, " "));
+    }
+
+    function encodeStr(objectDom, evt) {
+        if (evt != null)
+            evt.preventDefault();
+
+        var $_objectDom = $(objectDom);
+        var _href = "";
+        _href = "contenidosPuntoDeVista.htm" +
+            `?genericFile=${encodeURIComponent($(objectDom).attr("data-genericFile"))}` +
+            `&genericFileTitle=${encodeURIComponent($(objectDom).attr("data-genericFileTitle"))}` +
+            `&subtitle=${encodeURIComponent($(objectDom).attr("data-subtitle"))}`;
+
+        if ($_GET['bIsJudicaHoy'] != null)
+            _href += "&bIsJudicaHoy=1"
+
+        document.location.href = _href;
+        //console.log(_href);
+        //console.log(btoa(_href));
+        //2023%2Fdocumentos%2fnota_punto_de_vista_//boletin_05.pdf&genericFileTitle=Barbieland%20y%20la%20igualdad&subtitle=Magistrada%20Lilia%20Mónica%20López%20Benítez" $_objectDom
+        //$_objectDom.href(_href);
+        //console.log($(objectDom).attr("data-genericFile"));
+    }
+
+
+    function decodeStr() {
+        //decodeQueryParam
+
+        //console.log(atob(str));
+    }
+    </script>
+</body>
+
+</html>

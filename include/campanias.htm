@@ -1,0 +1,712 @@
+﻿<link rel="stylesheet" href="css/salaPrensa.css" media="screen" onload="if(media!='screen')media='screen'" />
+<link rel="stylesheet" href="css/slider.css" media="screen" onload="if(media!='screen')media='screen'" />
+<style>
+    /* .fancybox-slide--video .fancybox-content {
+    width  : 800px !important;
+    height : 600px !important;
+    max-width  : 80% !important;
+    max-height : 80% !important ;
+} */
+
+    #Campania2 {
+        padding: 0 5%;
+    }
+
+    #Campania2 div a img {
+        margin-top: 2%;
+        margin-bottom: 2%;
+    }
+
+
+
+    .thumbnail img {
+        max-height: 10vw;
+        min-height: 10vw;
+    }
+
+    .Impo {
+        max-width: 88% !important;
+        max-height: 77% !important;
+    }
+
+    .fancybox-skinpadding {
+        width: 800px !important;
+        height: 600px !important;
+        /* max-width  : 50% !important;
+    max-height : 50% !important ; */
+    }
+
+    .fancybox-inner {
+        width: 100% !important;
+        height: 550px !important;
+        /* max-width  : 80% !important;
+    max-height : 80% !important ; */
+    }
+
+    .fancybox-title-inside-wrap {
+        padding-top: 0px !important;
+    }
+
+    img.short-div-img {
+
+        height: 100%;
+        display: block;
+        padding: 3px;
+        max-height: 100%;
+    }
+
+    img.large-div-img {
+
+        height: 100%;
+        max-height: 250px;
+        width: 100%;
+    }
+
+    #Campania1 {
+        display: none;
+        margin-top: 2.4em;
+    }
+
+    .fancybox-overlay {
+        z-index: 99999 !important;
+    }
+
+    .title-divider.prensa {
+        color: #24135f;
+    }
+
+    .mg-tv {
+        border-right: #e6e6e6 1px solid;
+    }
+
+    @media screen and (max-width: 480px) {
+        .bloque-carrusel {
+            min-height: 100% !important;
+        }
+    }
+
+    @media screen and (max-width: 768px) {
+        .bloque-carrusel {
+            min-height: 100% !important;
+        }
+    }
+
+    /* .glyphicon.glyphicon-chevron-left,.glyphicon.glyphicon-chevron-right{
+    display: ;
+} */
+
+    /*.glyphicon.glyphicon-chevron-right{
+  margin-right: 5vw;
+}*/
+
+    .left.carousel-control {
+        margin-left: 5vw;
+    }
+
+    .right.carousel-control {
+        margin-right: 5vw;
+    }
+
+    @media screen and (max-width: 480px) {
+
+        .carousel-control.left,
+        .carousel-control.right {
+            height: 50%;
+        }
+    }
+
+    @media screen and (max-width: 768px) {
+        .bloque-carrusel {
+            min-height: 100% !important;
+        }
+    }
+
+    @media screen and (max-width: 1200px) {
+
+        /*.Minr {
+        margin:0 -6vw 0 !important;
+    }*/
+        .mg-tv {
+            margin-bottom: 1.4em;
+            border-right: none;
+        }
+
+    }
+
+    .thumbnail .tinyThumbs {
+        max-height: 90px;
+
+    }
+</style>
+<div class="row" style="margin-bottom: 25px;">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 mg-tv">
+                <h2 class="Minr" style="padding: 5px; color: #24135f;min-height: 70px;margin-top: 4px !important;">Tu
+                    voz, tu historia, tu justicia</h2>
+                <div class="text-center">
+                    <video width="100%" style="border: 1px solid #cccccc; padding: 10px; max-width: 320px; max-height: 240px;" controls>
+                        <!-- height="" -->
+                        <source src="https://www.cjf.gob.mx/SalaPrensa/resources/videos/2024/spots/02_spot.mp4" type="video/mp4">
+                    </video>
+                    <a href="campanias.htm#tuVoz" class="blue" style="display: block;">Ver más <span class="fa fa-plus-circle" aria-hidden="true"></span></a>
+                </div>
+            </div>
+            <div id="titleC" class="col-xs-12 col-sm-12 col col-md-12 col-lg-8">
+                <h2 class="title-divider prensa Minr" style="padding: 5px;min-height: 85px;margin-top: 4px !important;margin: 0px 0 0em !important;">
+                    Campaña #GuíasJudiciales</h2>
+                <div id="carousel-imagen" data-ride="carousel" class="carousel slide " style="width: 95%; margin: 0 auto; text-align: center;">
+                    <div id="carrouselImagen">
+                        <ol class="carousel-indicators">
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="item active">
+                                <div class="list-group-item bloque-carrusel" style="padding: 5px;">
+                                    <div class="row" style="cursor: pointer;">
+                                        <div class="col-md-12">
+                                            <img class="large-div-img" id="dataRowId1" style="height: 100%;" onclick="showCampanias()" src="img/campanias/guias1-banner-presentacion.png" alt="" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- <div class="item">
+                                    <div class="list-group-item bloque-carrusel" style="padding: 5px;">
+                                        <div class="row" style="cursor: pointer;">
+                                            <div class="col-md-12">
+                                                <img class="large-div-img" style="height: 100%;" onclick="showCampanias()" src="img/campanias/Sprensa_01 ARTE%201.svg" alt="" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div> -->
+                            <!--  <div class="item">
+                                    <div class="list-group-item bloque-carrusel" style="padding: 5px;">
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <img class="large-div-img" onclick="showCampanias()" style="height: 100%;" src="img/campanias/elementos_curvas_index_Sprensa_02%20ARTE%202.svg" alt="" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="list-group-item bloque-carrusel" style="padding: 5px;">
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <img class="large-div-img" onclick="showCampanias()" style="height: 100%;" src="img/campanias/elementos_curvas_index_Sprensa_03%20ARTE%203.svg" alt="" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div> -->
+                        </div>
+                    </div>
+                    <script>
+                    $('#carrouselImagen').load('include/sections/carrousel_img.htm');
+                    </script>
+                    <a href="#carousel-imagen" data-slide="prev" class="left carousel-control">
+                        <span aria-hidden="true" class="glyphicon glyphicon-chevron-left"></span>
+                        <span class="sr-only">Anterior</span>
+                    </a>
+                    <a href="#carousel-imagen" data-slide="next" class="right carousel-control">
+                        <span aria-hidden="true" class="glyphicon glyphicon-chevron-right"></span>
+                        <span class="sr-only">Siguiente</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row" id="Campania1">
+        <div class="col-md-12">
+            <div class="list-group carousel-list-group" style="width: 90%; margin:1.4em auto;">
+                <div class="list-group-item" style="padding:2px; background:#fff; width: 80%; ">
+                    <h4 class="list-group-item-heading" style="margin-bottom: 0px;">Videos</h4>
+                    <table class="table" style="background-color: transparent;">
+                        <thead>
+                            <tr>
+                                <th style="width: 100%; height:10px;" colspan="5">
+                                    <div class="text-left" style="padding-left: 30px"></div>
+                                </th>
+                                <th style="width:15%; height: 10px" colspan="5"></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td colspan="2" style="width: 60%;">
+                                    <div class="text-center" style="padding:2%;max-height: 8%">
+                                        <strong>Gu&iacute;as para entender al Poder Judicial Federal </strong>
+                                    </div>
+                                </td>
+                                <td style="width: 30px;">
+                                    <a href="resources/Guias/Videos/Conoce-NuevasGuias1.mp4" target="_self" title="Video 1" class="fancybox fancybox.iframe">
+                                        <i class="fa fa-play-circle" aria-hidden="true" style="color: #24135f; font-size: 36px;"></i><br><strong>1.1</strong>
+                                    </a>
+                                </td>
+                                <td style="width: 30px;">
+                                    <a href="resources/Guias/Videos/Conoce-NuevasGuias2.mp4" target="_self" title="Video 2" class="fancybox fancybox.iframe">
+                                        <i class="fa fa-play-circle" aria-hidden="true" style="color: #24135f; font-size: 36px"></i><br><strong>1.2</strong>
+                                    </a>
+                                </td>
+                                <td style="width: 30px;">
+                                    <a href="resources/Guias/Videos/Conoce-NuevasGuias3.mp4" target="_self" title="Video 3" class="fancybox fancybox.iframe">
+                                        <i class="fa fa-play-circle" aria-hidden="true" style="color: #24135f; font-size: 36px"></i><br><strong>1.3</strong>
+                                    </a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="2" style="width: 60%;">
+                                    <div class="text-center" style="padding:2%;max-height: 8%">
+                                        <strong>Gu&iacute;as 2</strong>
+                                    </div>
+                                </td>
+                                <td colspan="3">
+                                    <a href="resources/Guias/Videos/Guias-2.mp4" target="_self" title="Video 1" class="fancybox fancybox.iframe">
+                                        <i class="fa fa-play-circle" aria-hidden="true" style="color: #24135f; font-size: 36px;"></i><br><strong>2.1</strong>
+                                    </a>
+                                </td>
+                                <!-- <td style="width: 30px;">
+                                        <a href="#" target="_self" title="Video 2" class="fancybox fancybox.iframe">
+                                            <i class="fa fa-play-circle" aria-hidden="true" style="color: #24135f; font-size: 36px"></i><br><strong>2.2</strong>
+                                        </a>
+                                    </td>
+                                    <td style="width: 30px;">
+                                        <a href="#" target="_self" title="Video 3" class="fancybox fancybox.iframe">
+                                            <i class="fa fa-play-circle" aria-hidden="true" style="color: #24135f; font-size: 36px"></i><br><strong>2.3</strong>
+                                        </a>
+                                    </td> -->
+                            </tr>
+                            <tr>
+                                <td colspan="2">
+                                    <div class="text-center" style="padding:2%;max-height: 8%">
+                                        <strong>Gu&iacute;as 3</strong>
+                                    </div>
+                                </td>
+                                <td>
+                                    <a href="resources/Guias/Videos/Guia3-1.mp4" target="_self" title="Video 1" class="fancybox fancybox.iframe">
+                                        <i class="fa fa-play-circle" aria-hidden="true" style="color: #24135f; font-size: 36px;"></i><br><strong>3.1</strong>
+                                    </a>
+                                </td>
+                                <td>
+                                    <a href="resources/Guias/Videos/Guia3-2.mp4" target="_self" title="Video 2" class="fancybox fancybox.iframe">
+                                        <i class="fa fa-play-circle" aria-hidden="true" style="color: #24135f; font-size: 36px;"></i><br><strong>3.2</strong>
+                                    </a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="2">
+                                    <div class="text-center" style="padding:2%;max-height: 8%">
+                                        <strong>Gu&iacute;as 4</strong>
+                                    </div>
+                                </td>
+                                <td colspan="3">
+                                    <a href="resources/Guias/Videos/Guias4-1.mp4" target="_self" title="Video 1" class="fancybox fancybox.iframe">
+                                        <i class="fa fa-play-circle" aria-hidden="true" style="color: #24135f; font-size: 36px;"></i><br><strong>4.1</strong>
+                                    </a>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <h2 class="title-divider prensa" id="title-divider-graficos" style="padding: 5px; min-height: 70px;    margin: 10px 0px 0em !important;    width: 100%;    height: 70px;">
+                    Gráficos #GuíasJudiciales</h2>
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 text-center">
+                        <div class="thumbnail">
+                            <a href="resources/Guias/presentacion-guias.pdf" target="_blank" style="display: block;">
+                                <img class="img-responsive Impo" src="img/campanias/presentacion-guias.png" /></a>
+                            <div class="margin-top-xs margin-bottom-xs">
+                                <div class="margin-top-md">
+                                    <div class="date-wrapper date-wrapper-horizontal">
+                                        <span class="date-m">
+                                            Publicación
+                                        </span>
+                                        <span class="date-d">
+                                            24/may
+                                        </span>
+                                    </div>
+                                    <p class="text-center">Presentación</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 text-center">
+                        <div class="col-xs-6 col-sm-4 col-md-4 col-lg-4 text-center">
+                            <div class="thumbnail">
+                                <a href="resources/Guias/guias_1.pdf" target="_blank" style="display: block;">
+                                    <img class="img-responsive tinyThumbsImg" src="img/campanias/guias_1.png" alt="Guía#1" /></a>
+                                <div class="margin-top-xs margin-bottom-xs tinyThumbs">
+                                    <div class="margin-top-md">
+                                        <div class="date-wrapper date-wrapper-horizontal">
+                                            <span class="date-m">
+                                                Publicación
+                                            </span>
+                                            <span class="date-d">
+                                                24/may
+                                            </span>
+                                        </div>
+                                        <p class="text-center">Gu&iacute;a 1</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-6 col-sm-4 col-md-4 col-lg-4 text-center">
+                            <div class="thumbnail">
+                                <a href="resources/Guias/guias_2.pdf" target="_blank" style="display: block;">
+                                    <img class="img-responsive tinyThumbsImg" src="img/campanias/guias_2.png" alt="Guía#2" /></a>
+                                <div class="margin-top-xs margin-bottom-xs tinyThumbs">
+                                    <div class="margin-top-md">
+                                        <div class="date-wrapper date-wrapper-horizontal">
+                                            <span class="date-m">
+                                                Publicación
+                                            </span>
+                                            <span class="date-d">
+                                                31/may
+                                            </span>
+                                        </div>
+                                        <p class="text-center">Gu&iacute;a 2</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-6 col-sm-4 col-md-4 col-lg-4 text-center">
+                            <div class="thumbnail">
+                                <a href="resources/Guias/guias_3.pdf" target="_blank" style="display: block;">
+                                    <img class="img-responsive tinyThumbsImg" src="img/campanias/guias_3.png" alt="Guía#3" /></a>
+                                <div class="margin-top-xs margin-bottom-xs tinyThumbs">
+                                    <div class="margin-top-md">
+                                        <div class="date-wrapper date-wrapper-horizontal">
+                                            <span class="date-m">
+                                                Publicación
+                                            </span>
+                                            <span class="date-d">
+                                                07/jun
+                                            </span>
+                                        </div>
+                                        <p class="text-center">Gu&iacute;a 3</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-6 col-sm-4 col-md-4 col-lg-4 text-center">
+                            <div class="thumbnail">
+                                <a href="resources/Guias/guias_4.pdf" target="_blank" style="display: block;">
+                                    <img class="img-responsive tinyThumbsImg" src="img/campanias/guias_4.png" alt="Guía#4" /></a>
+                                <div class="margin-top-xs margin-bottom-xs tinyThumbs">
+                                    <div class="margin-top-md">
+                                        <div class="date-wrapper date-wrapper-horizontal">
+                                            <span class="date-m">
+                                                Publicación
+                                            </span>
+                                            <span class="date-d">
+                                                10/jun
+                                            </span>
+                                        </div>
+                                        <p class="text-center">Gu&iacute;a 4</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-6 col-sm-4 col-md-4 col-lg-4 text-center">
+                            <div class="thumbnail">
+                                <a href="resources/Guias/guias_5.pdf" target="_blank" style="display: block;">
+                                    <img class="img-responsive tinyThumbsImg" src="img/campanias/guias_5.png" alt="Guía#5" /></a>
+                                <div class="margin-top-xs margin-bottom-xs tinyThumbs">
+                                    <div class="margin-top-md">
+                                        <div class="date-wrapper date-wrapper-horizontal">
+                                            <span class="date-m">
+                                                Publicación
+                                            </span>
+                                            <span class="date-d">
+                                                14/jun
+                                            </span>
+                                        </div>
+                                        <p class="text-center">Gu&iacute;a 5</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-6 col-sm-4 col-md-4 col-lg-4 text-center">
+                            <div class="thumbnail">
+                                <a href="resources/Guias/guias_6.pdf" target="_blank" style="display: block;">
+                                    <img class="img-responsive tinyThumbsImg" src="img/campanias/guias_6.png" alt="Guía#6" /></a>
+                                <div class="margin-top-xs margin-bottom-xs tinyThumbs">
+                                    <div class="margin-top-md">
+                                        <div class="date-wrapper date-wrapper-horizontal">
+                                            <span class="date-m">
+                                                Publicación
+                                            </span>
+                                            <span class="date-d">
+                                                17/jun
+                                            </span>
+                                        </div>
+                                        <p class="text-center">Gu&iacute;a 6</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
+                        <div class="col-xs-6 col-sm-4 col-md-4 col-lg-2 text-center">
+                            <div class="thumbnail">
+                                <a href="resources/Guias/guias_7.pdf" target="_blank" style="display: block;">
+                                    <img class="img-responsive tinyThumbsImg" src="img/campanias/guias_7.png" alt="Guía#7" /></a>
+                                <div class="margin-top-xs margin-bottom-xs tinyThumbs">
+                                    <div class="margin-top-md">
+                                        <div class="date-wrapper date-wrapper-horizontal">
+                                            <span class="date-m">
+                                                Publicación
+                                            </span>
+                                            <span class="date-d">
+                                                21/jun
+                                            </span>
+                                        </div>
+                                        <p class="text-center">Gu&iacute;a 7</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-6 col-sm-4 col-md-4 col-lg-2 text-center">
+                            <div class="thumbnail">
+                                <a href="resources/Guias/guias_8.pdf" target="_blank" style="display: block;">
+                                    <img class="img-responsive tinyThumbsImg" src="img/campanias/guias_8.png" alt="Guía#8" /></a>
+                                <div class="margin-top-xs margin-bottom-xs tinyThumbs">
+                                    <div class="margin-top-md">
+                                        <div class="date-wrapper date-wrapper-horizontal">
+                                            <span class="date-m">
+                                                Publicación
+                                            </span>
+                                            <span class="date-d">
+                                                24/jun
+                                            </span>
+                                        </div>
+                                        <p class="text-center">Gu&iacute;a 8</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-6 col-sm-4 col-md-4 col-lg-2 text-center">
+                            <div class="thumbnail">
+                                <a href="resources/Guias/guias_9.pdf" target="_blank" style="display: block;">
+                                    <img class="img-responsive tinyThumbsImg" src="img/campanias/guias_9.png" alt="Guía#9" /></a>
+                                <div class="margin-top-xs margin-bottom-xs tinyThumbs">
+                                    <div class="margin-top-md">
+                                        <div class="date-wrapper date-wrapper-horizontal">
+                                            <span class="date-m">
+                                                Publicación
+                                            </span>
+                                            <span class="date-d">
+                                                28/jun
+                                            </span>
+                                        </div>
+                                        <p class="text-center">Gu&iacute;a 9</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-6 col-sm-4 col-md-4 col-lg-2 text-center">
+                            <div class="thumbnail">
+                                <a href="resources/Guias/guias_10.pdf" target="_blank" style="display: block;">
+                                    <img class="img-responsive tinyThumbsImg" src="img/campanias/guias_10.png" alt="Guía#10" /></a>
+                                <div class="margin-top-xs margin-bottom-xs tinyThumbs">
+                                    <div class="margin-top-md">
+                                        <div class="date-wrapper date-wrapper-horizontal">
+                                            <span class="date-m">
+                                                Publicación
+                                            </span>
+                                            <span class="date-d">
+                                                01/jul
+                                            </span>
+                                        </div>
+                                        <p class="text-center">Gu&iacute;a 10</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-6 col-sm-4 col-md-4 col-lg-2 text-center">
+                            <div class="thumbnail">
+                                <a href="resources/Guias/guias_11.pdf" target="_blank" style="display: block;">
+                                    <img class="img-responsive tinyThumbsImg" src="img/campanias/guias_11.png" alt="Guía#11" /></a>
+                                <div class="margin-top-xs margin-bottom-xs tinyThumbs">
+                                    <div class="margin-top-md">
+                                        <div class="date-wrapper date-wrapper-horizontal">
+                                            <span class="date-m">
+                                                Publicación
+                                            </span>
+                                            <span class="date-d">
+                                                05/jul
+                                            </span>
+                                        </div>
+                                        <p class="text-center">Gu&iacute;a 11</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-6 col-sm-4 col-md-4 col-lg-2 text-center">
+                            <div class="thumbnail">
+                                <a href="resources/Guias/guias_12.pdf" target="_blank" style="display: block;">
+                                    <img class="img-responsive tinyThumbsImg" src="img/campanias/guias_12.png" alt="Guía#12" /></a>
+                                <div class="margin-top-xs margin-bottom-xs tinyThumbs">
+                                    <div class="margin-top-md">
+                                        <div class="date-wrapper date-wrapper-horizontal">
+                                            <span class="date-m">
+                                                Publicación
+                                            </span>
+                                            <span class="date-d">
+                                                08/jul
+                                            </span>
+                                        </div>
+                                        <p class="text-center">Gu&iacute;a 12</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-6 col-sm-4 col-md-4 col-lg-2 text-center">
+                            <div class="thumbnail">
+                                <a href="resources/Guias/guias_13.pdf" target="_blank" style="display: block;">
+                                    <img class="img-responsive tinyThumbsImg" src="img/campanias/guias_13.png" alt="Guía#13" /></a>
+                                <div class="margin-top-xs margin-bottom-xs tinyThumbs">
+                                    <div class="margin-top-md">
+                                        <div class="date-wrapper date-wrapper-horizontal">
+                                            <span class="date-m">
+                                                Publicación
+                                            </span>
+                                            <span class="date-d">
+                                                12/jul
+                                            </span>
+                                        </div>
+                                        <p class="text-center">Gu&iacute;a 13</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-6 col-sm-4 col-md-4 col-lg-2 text-center">
+                            <div class="thumbnail">
+                                <a href="resources/Guias/guias_14.pdf" target="_blank" style="display: block;">
+                                    <img class="img-responsive tinyThumbsImg" src="img/campanias/guias_14.png" alt="Guía#14" /></a>
+                                <div class="margin-top-xs margin-bottom-xs tinyThumbs">
+                                    <div class="margin-top-md">
+                                        <div class="date-wrapper date-wrapper-horizontal">
+                                            <span class="date-m">
+                                                Publicación
+                                            </span>
+                                            <span class="date-d">
+                                                15/jul
+                                            </span>
+                                        </div>
+                                        <p class="text-center">Gu&iacute;a 14</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row text-center" id="Campania2">
+    <div class="col-md-12">
+        <hr class="margin-top-lg" style="display: block" />
+        <a href="https://www.cjf.gob.mx/SalaPrensa/LaJudicaturaHoy.htm" target="_self">
+            <img class="col-md-3" style="max-height: 200px" src="img/campanias/Sprensa_07_%20judicatura%20btn.svg" />
+        </a>
+        <a href="http://www.cjf.gob.mx/SalaPrensa/podcastSpotify.htm" target="_self">
+            <img class="col-md-3" style="max-height: 200px" src="img/campanias/Sprensa_08_CJF_informa_BTN.svg" />
+        </a>
+        <a href="http://www.cjf.gob.mx/SalaPrensa/index.htm#Comunicados" target="_self">
+            <img class="col-md-3" style="max-height: 200px" src="img/campanias/Sprensa_09_COMUNICADOS_BTN.svg" />
+        </a>
+        <a href="http://www.cjf.gob.mx/SalaPrensa/index.htm#Galeria" target="_self">
+            <img class="col-md-3" style="max-height: 200px" src="img/campanias/Sprensa_10_GALERIA_BTN.svg" />
+        </a>
+    </div>
+</div>
+<script>
+var $_GET = $.requestParams();
+var isFirstLoad = true;
+
+$(document).ready(function() {
+    resizeElements1();
+})
+
+$("a[href='#Campanias']").on("click", function(evt) {
+    if (!$(this).parent().hasClass("active"))
+        showCampanias();
+})
+
+function showCampanias() {
+
+    if (isFirstLoad) {
+        $('#Campania1').toggle("slow", function() {
+            $("a[href='#Campanias']").parent().addClass("active");
+            $('.carousel').carousel(0);
+            $('.carousel').carousel("pause");
+            $('#dataRowId1').attr("src", "img/campanias/guias2-banner-interno.png");
+
+            //$("#titleC").toggleClass("margin-top-lg").toggleClass("margin-top-md");
+
+
+            $(".carousel-indicators").hide();
+            $(".carousel-control").hide();
+            $('.carousel').carousel({
+                interval: false,
+
+            });
+
+            /*$('#Campania2').toggle("400", function() {
+                $(".title-divider.prensa").toggle();
+            });*/
+        });
+
+        isFirstLoad = false;
+    } else
+        window.location.href = "index.htm";
+}
+
+$('.fancybox').fancybox({
+    'padding': 4,
+    'transitionIn': 'none',
+    'transitionOut': 'none',
+    'type': 'iframe',
+    /*'width': '80%',*/
+
+    helpers: {
+        title: {
+            type: 'inside',
+            position: 'top'
+        },
+        overlay: {
+            speedOut: 0
+        }
+    },
+    beforeShow: function() {
+        console.log();
+        //if (this.parent.width() > 1120)
+        //  this.width = 1120 * .75;
+
+    },
+    afterLoad: function() {
+        //this.title = "<span style=\"font-size:14px;display:block;font-weight:bold; text-align:left;color:#24135f;padding:5px;\">" + (this.title ? '' + this.title : '') + "</span>";
+    } // afterLoad
+});
+
+
+function resizeElements1() {
+
+    if ($("h2.Minr").height() > 66) {
+        $("h2.title-divider.prensa.Minr").width($("h2.Minr").width());
+        $("h2.title-divider.prensa.Minr").height($("h2.Minr").height());
+    } else {
+        var _newVal = $("h2.title-divider.prensa.Minr").width();
+        $("h2.title-divider.prensa.Minr").css("width", "100%");
+        $("h2.title-divider.prensa.Minr").height($("h2.Minr").height());
+    }
+}
+
+$(window).on("resize", function() {
+    resizeElements1();
+})
+</script>

@@ -1,0 +1,1012 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"fec",
+				"fdFecha_long"
+			],
+			[
+				"date",
+				"dateArray"
+			],
+			[
+				"sd",
+				"sDateString"
+			],
+			[
+				"li",
+				"list-style\tproperty"
+			],
+			[
+				"FA",
+				"fa"
+			],
+			[
+				"he",
+				"heightResult"
+			],
+			[
+				"brea",
+				"break"
+			],
+			[
+				"id",
+				"idTipo"
+			],
+			[
+				"title",
+				"titleEntidad"
+			],
+			[
+				"i",
+				"important"
+			],
+			[
+				"text",
+				"text-left"
+			],
+			[
+				"_D",
+				"_domElment"
+			],
+			[
+				"IMG",
+				"img-fluid"
+			],
+			[
+				"bo",
+				"boletin11"
+			],
+			[
+				"margin-",
+				"margin-top\tproperty"
+			],
+			[
+				"l",
+				"x-large\tfont-size"
+			],
+			[
+				"mar",
+				"margin\tproperty"
+			],
+			[
+				"col-md",
+				"col-md-6"
+			],
+			[
+				"marg",
+				"margin-left\tproperty"
+			],
+			[
+				"im",
+				"img-fluid"
+			],
+			[
+				"min",
+				"min-height\tproperty"
+			],
+			[
+				"web",
+				"website"
+			],
+			[
+				"sp",
+				"spotify"
+			],
+			[
+				"lin",
+				"linkedin"
+			],
+			[
+				"fa",
+				"facebook"
+			],
+			[
+				"vw",
+				"vw_All"
+			],
+			[
+				"max",
+				"max-width\tproperty"
+			],
+			[
+				"auto",
+				"autoplay"
+			],
+			[
+				"backgrou",
+				"background-image\tproperty"
+			],
+			[
+				"open",
+				"openUrl"
+			],
+			[
+				"pad",
+				"padding\tproperty"
+			],
+			[
+				"div1_",
+				"div1_header5"
+			],
+			[
+				"div",
+				"div1_header5-a"
+			],
+			[
+				"col-sm-",
+				"col-md-offset-7"
+			],
+			[
+				"col",
+				"col-sm-12"
+			],
+			[
+				"bacgr",
+				"background-color\tproperty"
+			],
+			[
+				"bac",
+				"background-repeat\tproperty"
+			],
+			[
+				"ba",
+				"background-size\tproperty"
+			],
+			[
+				"Sala",
+				"salaPrensa"
+			],
+			[
+				"index",
+				"indexOf"
+			],
+			[
+				"_",
+				"_mes"
+			],
+			[
+				"get",
+				"getDate"
+			],
+			[
+				"font",
+				"font-weight\tproperty"
+			],
+			[
+				"di",
+				"display\tproperty"
+			],
+			[
+				"pdf",
+				"pdfSubtitle"
+			],
+			[
+				"Get",
+				"_GET"
+			],
+			[
+				"data-",
+				"data-target"
+			],
+			[
+				"te",
+				"text-right"
+			],
+			[
+				"col-md-of",
+				"col-md-offset-6"
+			],
+			[
+				"tex",
+				"text-center"
+			],
+			[
+				"wid",
+				"width\tproperty"
+			],
+			[
+				"sma",
+				"smaller\tfont-size"
+			],
+			[
+				"st",
+				"style\tTag"
+			],
+			[
+				"c",
+				"class\tAttr"
+			],
+			[
+				"lar",
+				"larger\tfont-size"
+			],
+			[
+				"ul",
+				"ul-resources-boletin"
+			],
+			[
+				"contenidos",
+				"contenidosJusticiaAldia"
+			],
+			[
+				"conteidos",
+				"contenidosPuntoDeVista"
+			],
+			[
+				"data",
+				"data-pdf-target"
+			],
+			[
+				"padd",
+				"padding-left\tproperty"
+			],
+			[
+				"img",
+				"imgHeader-laJudicaturaHoy"
+			],
+			[
+				"La",
+				"LaJudicaturaHoy"
+			],
+			[
+				"fc",
+				"fcTitulo"
+			],
+			[
+				"to",
+				"toLowerCase"
+			],
+			[
+				"page",
+				"_pageTitle"
+			],
+			[
+				"s",
+				"sMes"
+			],
+			[
+				"crea",
+				"createElement"
+			],
+			[
+				"f",
+				"for\tfor (…) {…} (Improved Native For-Loop)"
+			],
+			[
+				"creat",
+				"createDivBloques"
+			],
+			[
+				"t",
+				"tbody\tTag"
+			],
+			[
+				"current",
+				"currentYear"
+			],
+			[
+				"on",
+				"onSelect"
+			],
+			[
+				"d",
+				"display\tproperty"
+			],
+			[
+				"darkg",
+				"darkgray"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"b",
+				"blueviolet"
+			],
+			[
+				"col-o",
+				"col-lg-offset-1"
+			],
+			[
+				"wo",
+				"word-wrap"
+			],
+			[
+				"sub",
+				"subtitle"
+			],
+			[
+				"th",
+				"thumbnails"
+			],
+			[
+				"a",
+				"active"
+			],
+			[
+				"border",
+				"border-top"
+			],
+			[
+				"border-top",
+				"border-top-style"
+			],
+			[
+				"bor",
+				"border-color"
+			],
+			[
+				"SUBDI",
+				"SUBDIRECCIÓN"
+			],
+			[
+				"lig",
+				"lightslategrey"
+			],
+			[
+				"panel",
+				"panel-body"
+			],
+			[
+				"Atrib",
+				"Atribuciones"
+			],
+			[
+				"dar",
+				"darkgray"
+			],
+			[
+				"light",
+				"lightgray"
+			],
+			[
+				"text-",
+				"text-justify"
+			],
+			[
+				"tx",
+				"text"
+			],
+			[
+				"T",
+				"top"
+			],
+			[
+				"ve",
+				"vertical-align"
+			],
+			[
+				"tex-",
+				"text-decoration"
+			],
+			[
+				"cli",
+				"click"
+			],
+			[
+				"tr",
+				"trigger"
+			],
+			[
+				"tri",
+				"trigger"
+			],
+			[
+				"tog",
+				"toggle"
+			],
+			[
+				"paddi",
+				"padding-left"
+			],
+			[
+				"fil",
+				"filters"
+			],
+			[
+				"fit",
+				"filters"
+			],
+			[
+				"filter",
+				"filters"
+			],
+			[
+				"val",
+				"value"
+			],
+			[
+				"has",
+				"hasClass"
+			],
+			[
+				"subs",
+				"substring"
+			],
+			[
+				"smal",
+				"xx-small\tfont-size"
+			],
+			[
+				"video",
+				"videoName"
+			],
+			[
+				"pr",
+				"prepend"
+			],
+			[
+				"Circ",
+				"Circulares"
+			],
+			[
+				"border-",
+				"border-color\tproperty"
+			],
+			[
+				"wi",
+				"width\tproperty"
+			],
+			[
+				"date-",
+				"date-fin"
+			],
+			[
+				"TABLE",
+				"table\tTag"
+			],
+			[
+				"sur",
+				"sUriEncryptToken"
+			],
+			[
+				"el",
+				"element"
+			],
+			[
+				"con",
+				"console"
+			],
+			[
+				"pro",
+				"protocol"
+			],
+			[
+				"re",
+				"registro"
+			],
+			[
+				"file",
+				"filename"
+			],
+			[
+				"u",
+				"undefined"
+			],
+			[
+				"fin",
+				"dateFin"
+			],
+			[
+				"type",
+				"typeof"
+			],
+			[
+				"Info",
+				"informacion"
+			],
+			[
+				"fuc",
+				"function"
+			],
+			[
+				"fir",
+				"first-child"
+			],
+			[
+				"fi",
+				"first"
+			],
+			[
+				"sort",
+				"sortTable"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "include/laJudicaturaHoy_tempo.html",
+			"settings":
+			{
+				"buffer_size": 44187,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "include/laJudicaturaHoy.html",
+			"settings":
+			{
+				"buffer_size": 44187,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "LaJudicaturaHoy.htm",
+			"settings":
+			{
+				"buffer_size": 55345,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "LaJudicaturaHoy_pdfs_temp.htm",
+			"settings":
+			{
+				"buffer_size": 56668,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 58.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"char",
+				"HTML: Encode Special Characters"
+			],
+			[
+				"html\t",
+				"Set Syntax: HTML"
+			],
+			[
+				"chaR",
+				"HTML: Encode Special Characters"
+			],
+			[
+				"chart",
+				"HTML: Encode Special Characters"
+			],
+			[
+				"CHAR",
+				"HTML: Encode Special Characters"
+			],
+			[
+				"chatr",
+				"HTML: Encode Special Characters"
+			],
+			[
+				"cchar",
+				"HTML: Encode Special Characters"
+			],
+			[
+				"CHART",
+				"HTML: Encode Special Characters"
+			],
+			[
+				"cgar",
+				"Package Control: Add Repository"
+			],
+			[
+				"c har",
+				"HTML: Encode Special Characters"
+			],
+			[
+				"CAHR",
+				"W3C Validators: Validate HTML 4.01 Transitional"
+			],
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			],
+			[
+				"urle",
+				"URL Encode"
+			],
+			[
+				"url",
+				"URL Encode"
+			],
+			[
+				"chare",
+				"Sublimerge: Show Changes Introduced in Revision..."
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"File: Save All"
+			],
+			[
+				"cahr",
+				"W3C Validators: Validate HTML 4.01 Transitional"
+			],
+			[
+				"sq",
+				"Set Syntax: SQL"
+			],
+			[
+				"html en",
+				"HTML: Encode Special Characters"
+			],
+			[
+				"car",
+				"HTML: Encode Special Characters"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"reposi",
+				"Package Control: Add Repository"
+			],
+			[
+				"html",
+				"Set Syntax: HTML (ASP)"
+			]
+		],
+		"width": 512.0
+	},
+	"console":
+	{
+		"height": 125.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/E/inetpub/wwwroot/TVS_Repository/cjfInternetBranches/prod/portal",
+		"/E/inetpub/wwwroot/TVS_Repository/cjfInternetBranches/prod/portal/SalaPrensa"
+	],
+	"file_history":
+	[
+		"/E/inetpub/wwwroot/TVS_Repository/cjfInternetBranches/prod/portal/SalaPrensa/include/comunicados - copia.htm",
+		"//qacjfportalespba/cjfroot/wcjf/micrositios/uirmjl_c/paginas/informacion/tableTemplate1.htm",
+		"//qacjfportalespba/cjfroot/wcjf/micrositios/uirmjl_c/data/json/precedentes/tesisAisladas_SCJN_Sala2.json",
+		"//qacjfportalespba/cjfroot/wcjf/micrositios/uirmjl_c/data/json/precedentes/jurisprudencias_SCJN_Sala2.json",
+		"//qacjfportalespba/cjfroot/wcjf/micrositios/uirmjl_c/paginas/avisos.htm"
+	],
+	"find":
+	{
+		"height": 24.0
+	},
+	"find_in_files":
+	{
+		"height": 172.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"boletin21",
+			"contenidos",
+			"multimedia",
+			"spotti",
+			"case \"90",
+			"90",
+			"#div1_header9",
+			"boletin_21",
+			"boletin21",
+			"boletin-21",
+			"boletin21"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"boletin22",
+			"boletin_22",
+			"boletin22",
+			"boletin-22",
+			"boletin22"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"folders":
+	[
+		{
+			"path": "E:\\inetpub\\wwwroot\\TVS_Repository\\cjfInternetBranches\\prod\\portal"
+		}
+	],
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "include/laJudicaturaHoy_tempo.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 44187,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								44187
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2953.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "include/laJudicaturaHoy.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 44187,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								42596,
+								42596
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 14726.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "LaJudicaturaHoy.htm",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 55345,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								18254,
+								18254
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 5428.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "LaJudicaturaHoy_pdfs_temp.htm",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 56668,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								16762,
+								17385
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 3417.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "include/laJudicaturaHoy_tempo.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 44187,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								11117,
+								11118
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 8059.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 24.0
+	},
+	"input":
+	{
+		"height": 43.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.714762593868,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 88.0
+	},
+	"pinned_build_system": "",
+	"project": "",
+	"replace":
+	{
+		"height": 44.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 322.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

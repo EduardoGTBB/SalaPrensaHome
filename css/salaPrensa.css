@@ -1,0 +1,22 @@
+div.list-group-item>h4.list-group-item-heading {
+    background-color: #24135f;
+    text-align: center;
+    padding: 8px 0;
+    color: #fff
+}
+
+@media screen and (max-width: 990px) and (orientation: portrait) {
+    div#headerJudicaturahoy {
+        width: 95%;
+    }
+
+    div#headerJudicaturahoy img {
+        width: 100%;
+
+    }
+
+    div#headerJudicaturahoy a {
+        width: 100%;
+        max-width: 100% !important;
+    }
+}

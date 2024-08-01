@@ -1,0 +1,239 @@
+﻿<link rel="stylesheet" href="css/salaPrensa.css" media="screen" onload="if(media!='screen')media='screen'" />
+<link rel="stylesheet" href="css/slider.css" media="screen" onload="if(media!='screen')media='screen'" />
+<style>
+.fancybox-title-inside-wrap {
+    padding-top: 0px !important;
+}
+
+img.short-div-img {
+
+    height: 100%;
+    display: block;
+    padding: 3px;
+    max-height: 100%;
+}
+
+img.large-div-img {
+
+    height: 100%;
+    max-height: 250px;
+    width: 100%;
+}
+
+#Campania1 {
+    display: none;
+    margin-top: 2.4em;
+}
+
+.fancybox-overlay {
+    z-index: 99999 !important;
+}
+
+.title-divider.prensa {
+    color: #24135f;
+}
+</style>
+<h2 class="title-divider prensa" style="display: none">Campaña #SomosCJF</h2>
+<div class="row" style="margin-bottom: 70px;">
+    <div class="col-sm-offset-1 col-sm-9 col-md-offset-2 col-md-8 col-lg-offset-1 col-lg-10">
+        <div id="carousel-imagen" data-ride="carousel" class="carousel slide">
+            <div id="carrouselImagen">
+                <ol class="carousel-indicators">
+                    <li data-target="#carousel-imagen" data-slide-to="0" class="active"></li>
+                    <li data-target="#carousel-imagen" data-slide-to="1"></li>
+                    <li data-target="#carousel-imagen" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <div class="list-group-item bloque-carrusel" style="padding: 5px;">
+                            <div class="row" style="cursor: pointer;">
+                                <div class="col-md-12">
+                                    <img class="large-div-img" id="dataRowId1" style="height: 100%;"  src="img\campanias\guias1-banner-presentacion.png" alt="" />
+                                </div><!-- onclick="showCampanias()" -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="list-group-item bloque-carrusel" style="padding: 5px;">
+                            <div class="row" style="cursor: pointer;">
+                                <div class="col-md-12">
+                                    <img class="large-div-img" style="height: 100%;" id="dataRowId1" onclick="showCampanias()" src="img/campanias/Sprensa_01 ARTE%201.svg" alt="" />
+                                </div> 
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="list-group-item bloque-carrusel" style="padding: 5px;">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <img class="large-div-img" onclick="showCampanias()" style="height: 100%;" src="img/campanias/elementos_curvas_index_Sprensa_02%20ARTE%202.svg" alt="" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="list-group-item bloque-carrusel" style="padding: 5px;">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <img class="large-div-img" onclick="showCampanias()" style="height: 100%;" src="img/campanias/elementos_curvas_index_Sprensa_03%20ARTE%203.svg" alt="" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <script>
+            //$('#carrouselImagen').load('include/sections/carrousel_img.htm');
+            </script>
+            <a href="#carousel-imagen" data-slide="prev" class="left carousel-control">
+                <span aria-hidden="true" class="glyphicon glyphicon-chevron-left"></span>
+                <span class="sr-only">Anterior</span>
+            </a>
+            <a href="#carousel-imagen" data-slide="next" class="right carousel-control">
+                <span aria-hidden="true" class="glyphicon glyphicon-chevron-right"></span>
+                <span class="sr-only">Siguiente</span>
+            </a>
+        </div>
+        <div class="row" id="Campania1">
+            <div class="col-md-12">
+                <div class="list-group carousel-list-group" style="width: 70%; margin:0 auto;">
+                    <div class="list-group-item" style="padding:3px; background:#fff; ">
+                        <h4 class="list-group-item-heading" style="margin-bottom: 0px;">
+                            <i class="fa fa-comments-o" aria-hidden="true"></i> Spots
+                        </h4>
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th style="width: 60%; cursor: pointer; height: 10px">
+                                        <!--<div class="text-left" style="padding-left: 30px"></div>-->
+                                    </th>
+                                    <th style="width:15%; height: 10px"></th>
+                                    <th style="width:25%; height: 10px">
+                                        <div class="text-center"></div>
+                                    </th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <div class="text-left" style="padding-left: 30px">
+                                            <strong>Spot Campaña #Somos 1</strong>
+                                        </div>
+                                    </td>
+                                    <td><i class="fa fa-calendar-o" aria-hidden="true"></i> 12/09/2023</td>
+                                    <td style="padding: 15px 15px">
+                                        <a href="https://www.youtube.com/embed/TdtPyskf5W4" target="_self" title="Video 1" class="fancybox fancybox.iframe">
+                                            <img class="short-div-img" src="img/campanias/Sprensa_04%20IMAGE%20SPOT%201.svg" />
+                                        </a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div class="text-left" style="padding-left: 30px">
+                                            <strong>Spot Campaña #Somos 2</strong>
+                                        </div>
+                                    </td>
+                                    <td> <i class="fa fa-calendar-o" aria-hidden="true"></i> 12/09/2023</td>
+                                    <td style="padding: 15px 15px">
+                                        <a href="https://www.youtube.com/embed/WmUWYTImd3Q" target="_self" title="video 2" class="fancybox fancybox.iframe">
+                                            <img class="short-div-img" src="img/campanias/Sprensa_05%20IMAGE%20SPOT%202.svg" />
+                                        </a>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-12">
+                <h2 class="title-divider prensa" id="title-divider-graficos" style="margin:5% -10% 0em;display: none;">Gráficos #SomosCJF</h2>
+                <hr class="margin-top-lg" style="display: block" />
+                <img class="col-md-4" style="max-height: 350px" src="img/campanias/Sprensa_17_cartel1_somoscjf.svg" />
+                <img class="col-md-4" style="max-height: 350px" src="img/campanias/Sprensa_18_cartel2_somoscjf.svg" />
+                <img class="col-md-4" style="max-height: 350px" src="img/campanias/Sprensa_19_17_cartel3_somoscjf.svg" />
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row margin-top-lg" id="Campania2">
+    <div class="col-md-12">
+        <a href="https://www.cjf.gob.mx/SalaPrensa/LaJudicaturaHoy.htm" target="_self">
+            <img class="col-md-3" style="max-height: 200px" src="img/campanias/Sprensa_07_%20judicatura%20btn.svg" />
+        </a>
+        <a href="http://www.cjf.gob.mx/SalaPrensa/podcastSpotify.htm" target="_self">
+            <img class="col-md-3" style="max-height: 200px" src="img/campanias/Sprensa_08_CJF_informa_BTN.svg" />
+        </a>
+        <a href="http://www.cjf.gob.mx/SalaPrensa/index.htm#Comunicados" target="_self">
+            <img class="col-md-3" style="max-height: 200px" src="img/campanias/Sprensa_09_COMUNICADOS_BTN.svg" />
+        </a>
+        <a href="http://www.cjf.gob.mx/SalaPrensa/index.htm#Galeria" target="_self">
+            <img class="col-md-3" style="max-height: 200px" src="img/campanias/Sprensa_10_GALERIA_BTN.svg" />
+        </a>
+    </div>
+</div>
+<script>
+var $_GET = $.requestParams();
+
+var isFirstLoad = true;
+
+
+$("a[href='#Campanias']").on("click", function(evt) {
+    if (!$(this).parent().hasClass("active"))
+        showCampanias();
+})
+
+function showCampanias() {
+
+    if (isFirstLoad) {
+        $('#Campania1').toggle("slow", function() {
+            $("a[href='#Campanias']").parent().addClass("active");
+            $('.carousel').carousel(0);
+            $('.carousel').carousel("pause");
+            $('#dataRowId1').attr("src", "img/campanias/Sprensa_12_banner_campanas%20titulo.svg");
+
+            $(".carousel-indicators").hide();
+            $(".carousel-control").hide();
+            $('.carousel').carousel({
+                interval: false,
+
+            });
+            $('#Campania2').toggle("fast", function() {
+                $(".title-divider.prensa").toggle();
+            });
+        });
+
+        isFirstLoad = false;
+    } else
+        window.location.href = "index.htm";
+}
+
+$('.fancybox').fancybox({
+    'padding': 4,
+    'height': '80%',
+
+    'transitionIn': 'none',
+    'transitionOut': 'none',
+    'type': 'iframe',
+    'width': '70%',
+
+    helpers: {
+        title: {
+            type: 'inside',
+            position: 'top'
+        },
+        overlay: {
+            speedOut: 0
+        }
+    },
+    beforeShow: function() {
+        console.log();
+        //if (this.parent.width() > 1120)
+        //  this.width = 1120 * .75;
+
+    },
+    afterLoad: function() {
+        //this.title = "<span style=\"font-size:14px;display:block;font-weight:bold; text-align:left;color:#24135f;padding:5px;\">" + (this.title ? '' + this.title : '') + "</span>";
+    } // afterLoad
+
+});
+</script>

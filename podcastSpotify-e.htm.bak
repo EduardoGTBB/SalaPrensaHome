@@ -1,0 +1,838 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es-MX">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Podcast</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Spotify | Consejo de la Judicatura Federal" />
+    <meta name="keywords" content="busqueda" />
+    <meta name="robots" content="index,follow" />
+    <link rel="stylesheet" href="../css/bootstrap.min.css" media="screen" onload="if(media!='screen')media='screen'" />
+    <link rel="stylesheet" href="../css/font-CJF.min.css" media="screen" onload="if(media!='screen')media='screen'" />
+    <link rel="stylesheet" href="../css/all.min.css" media="screen" onload="if(media!='screen')media='screen'" />
+    <link rel="stylesheet" href="https://www.cjf.gob.mx/css/cjf.css" media="screen" onload="if(media!='screen')media='screen'" />
+    <link rel="stylesheet" href="css/salaPrensa.css" media="screen" onload="if(media!='screen')media='screen'" />
+    <link rel="stylesheet" href="../css/font-awesome.min.css" media="screen" onload="if(media!='screen')media='screen'" />
+    <script>
+        function formButtonFever(formName, action) {
+        var myString = "document." + formName + "." + action + "();";
+        eval(myString);
+    }
+    </script>
+    <style type="text/css">
+    .tableCol-date {
+        font-size: smaller;
+    }
+
+    .fancybox-title-inside-wrap {
+        padding-top: 0px !important;
+    }
+    </style>
+    <!--[if lt IE 9]>
+    <script type="text/javascript" src="plugins/html5shiv/dist/html5shiv.js"></script>
+    <script type="text/javascript" src="plugins/respond/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body><a id="top"></a>
+    <header id="navigation">
+        <div class="header-upper">
+            <form id="searchbox_008481728582972907838:aqkmikiniee" name="form1" class="container">
+                <div class="col-xs-2 col-md-6 col-lg-7 text-right search-text">Buscar</div>
+                <div class="col-xs-8 col-md-5 col-lg-4">
+                    <input id="campoBusqueda" name="q" type="search" class="textoSeccion_P451 search-input form-control" />
+                    <label for="campoBusqueda" class="sr-only">Escriba los datos que necesita buscar</label>
+                </div>
+                <div class="col-xs-2 col-md-1 col-lg-1 text-left">
+                    <button type="submit" class="boton-busqueda" aria-label="Clic aquí para iniciar la busqueda"><span class="fa fa-search search-link" aria-hidden="true"></span></button>
+                </div>
+            </form>
+        </div>
+        <div class="header" data-toggle="clingify">
+            <div class="header-inner container">
+                <div class="navbar"><a href="http://www.cjf.gob.mx/" id="LogoImg" class="navbar-brand pull-left"><span class="fc fc-LogotipoCJFHorizontal" aria-hidden="true"></span><span class="sr-only">Logotipo institucional del Consejo de la Judicatura Federal</span></a>
+                    <div data-toggle="jpanel-menu" data-target=".navbar-collapse" data-direction="right" class="navbar-btn" aria-label="Botón para moviles"><span class="fa fa-bars" aria-hidden="true"></span></div>
+                    <nav class="navbar-collapse collapse">
+                        <ul class="nav navbar-nav" data-hover="dropdown">
+                            <li class="home-link"><a href="index.htm"><span class="sr-only">Botón para ir al inicio de la página</span><span class="fa fa-home" aria-hidden="true"></span></a></li>
+                            <li class="dropdown" id="subMenu1"></li>
+                            <li class="dropdown" id="subMenu2"></li>
+                            <li class="dropdown" id="subMenu3"></li>
+                            <li class="dropdown" id="subMenu4"></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <h1 class="sr-only">Contenido</h1>
+    <div id="content">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-3 col-lg-2 sidebar">
+                    <div class="section-menu">
+                        <ul role="tablist" class="nav nav-list">
+                            <li role="presentation" class="nav-header">Sala de Prensa
+                                <br />Comunicaci&oacute;n Social
+                            </li>
+                            <li role="presentation">
+                                <a href="index.htm" class="first">Campañas
+                                    <small>&nbsp;</small>
+                                    <span class="fa fa-angle-right" aria-hidden="true"></span>
+                                </a>
+                            </li>
+                            <li role="presentation">
+                                <a href="index.htm#Comunicados">Comunicados e
+                                    <br />informaci&oacute;n de inter&eacute;s
+                                    <small>&nbsp;</small>
+                                    <span class="fa fa-angle-right" aria-hidden="true"></span>
+                                </a>
+                            </li>
+                            <li role="presentation" class="active">
+                                <a href="podcastSpotify.htm" role="tab">Podcast
+                                    <small>&nbsp;</small>
+                                    <span class="fa fa-angle-right" aria-hidden="true"></span>
+                                </a>
+                            </li>
+                            <li role="presentation">
+                                <a href="index.htm#LaJudicaturaHoy" role="tab">La Judicatura hoy
+                                    <small>&nbsp;</small>
+                                    <span class="fa fa-angle-right" aria-hidden="true"></span>
+                                </a>
+                            </li>
+                            <!--<li role="presentation">
+                                <a href="#Reflexiones" aria-controls="Reflexiones" data-toggle="tab" role="tab">Reflexiones
+                                    <small>&nbsp;</small>
+                                    <span class="fa fa-angle-right" aria-hidden="true"></span>
+                                </a>
+                            </li>-->
+                            <li role="presentation">
+                                <a href="index.htm#Galeria" role="tab">Galer&iacute;a
+                                    <small>&nbsp;</small>
+                                    <span class="fa fa-angle-right" aria-hidden="true"></span>
+                                </a>
+                            </li>
+                            <li role="presentation">
+                                <a href="index.htm#Discursos" role="tab">Discursos
+                                    <small>&nbsp;</small>
+                                    <span class="fa fa-angle-right" aria-hidden="true"></span>
+                                </a>
+                            </li>
+                            <!--<li role="presentation" class>
+                                <a href="#Conoce" aria-controls="Conoce" data-toggle="tab" role="tab">Conoce el Consejo
+                                    <small>&nbsp;</small>
+                                    <span class="fa fa-angle-right" aria-hidden="true"></span>
+                                </a>-->
+                            </li>
+                            <li role="presentation">
+                                <a href="index.htm#Designacion" role="tab">Comunicados de designación de Consejeros
+                                    <br />
+                                    <small>&nbsp;</small>
+                                    <span class="fa fa-angle-right" aria-hidden="true"></span>
+                                </a>
+                            </li>
+                            <li role="presentation">
+                                <a href="index.htm#Conoce" role="tab">Archivo Histórico
+                                    <br />
+                                    <small>&nbsp;</small>
+                                    <span class="fa fa-angle-right" aria-hidden="true"></span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-9 col-lg-10">
+                    <div class="tab-content">
+                        <nav aria-label="breadcrumbs">
+                            <ol class="breadcrumb">
+                                <li>
+                                    <a href="../index.htm">
+                                        <span class="sr-only">Botón para ir al inicio de la página</span>
+                                        <span class="fa fa-home" aria-hidden="true"></span>
+                                    </a>
+                                </li>
+                                <li tabindex="0"> <a href="index.htm" target="_self">Sala de Prensa</a>
+                                </li>
+                                <!-- <li tabindex="0"><a href="laJudicaturaHoy.htm" target="_self">La Judicatura hoy</a>
+                                </li>-->
+                                <li class="active" tabindex="0">Podcast
+                                </li>
+                            </ol>
+                        </nav>
+                    </div>
+                    <div class="row col-md-12 col-lg-12">
+                        <h2 tabindex="0" class="title-divider">El Consejo informa</h2>
+                        <div class="col-lg-offset-1 col-lg-9 col-md-offset-1 col-md-10 col-sm-12 text-center" style="width: 100%;margin: 0 auto;">
+                            <!--<img class="margin-bottom-md" src="//www.cjf.gob.mx/SalaPrensa/img/podcastSpotify/img_encabezado.png" id="imgHeader-podcast" width="1330px" style="max-height: 160px" />-->
+                        </div>
+                        <div class="col-lg-9 col-lg-offset-1 col-md-10 col-md-offset-2 col-sm-12">
+                            <div style="margin: 0 auto;width: 100%; text-align: center">
+                                <img class="margin-bottom-md" src="//www.cjf.gob.mx/SalaPrensa/img/podcastSpotify/img_encabezado2.png" id="imgHeader-podcast" width="100%" style="max-height: 160px; min-width: 350px; max-width: 940px;" />
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="text-center">
+                                        <img src="//www.cjf.gob.mx/SalaPrensa/img/podcastSpotify/img_reflexiones_var2.png" onclick='$("a.fancybox[data-row=\"EpisodioxxxxxT2\"]").click();' width="75%" style="margin: 0 auto; display:block;min-width: 450px; max-width: 600px;cursor: pointer;" />
+                                    </div>
+                                    <div class="list-group carousel-list-group margin-top-md ">
+                                        <div class="list-group-item" style="padding:3px; background:#fff; width: 100%;min-width: 300px; max-width: 940px; margin: 0 auto; text-align: center;">
+                                            <table class="table table-hover">
+                                                <thead>
+                                                    <tr>
+                                                        <th colspan="4" style="background-color: #24135f;">
+                                                            <h4 class="list-group-item-heading" style=";  margin-bottom: 0px; height: 50px;vertical-align: middle; color: white;display: contents">
+                                                                <i class="fa fa-spotify" aria-hidden="true" style=" margin-top:-4px;font-size: larger;"></i> Reflexiones desde el Consejo
+                                                            </h4>
+                                                        </th>
+                                                    </tr>
+                                                    <tr>
+                                                        <th style="width: 35%; cursor: pointer;">
+                                                            <div class="text-left" style="padding-left: 5px">Descripci&oacute;n</div>
+                                                        </th>
+                                                        <th style="width:15%;"><i class="fa fa-calendar-o" aria-hidden="true"></i></th>
+                                                        <th style="width:10%;">
+                                                            <div class="text-center">Audio</div>
+                                                        </th>
+                                                        <th style="width:40%;">
+                                                            <div class="text-center">Entrevista Completa</div>
+                                                        </th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <td>
+                                                            <div id="divTitle-Episodio04T2" data-year="2024" class="text-left" style="padding-left: 5px">
+                                                                <strong>Temporada 2, Ep. 7</strong><br /><span>Justicia Digital</span>
+                                                            </div>
+                                                        </td>
+                                                        <td><span class="tableCol-date">xxxx/04/2024</span></td>
+                                                        <td style="padding: 15px 15px">
+                                                            <div class="text-center">
+                                                                <a class="fancybox fancybox.iframe" href="resources/audioPlayer.htm?file=audio_podcast_reflexionesT2_06_boletin_32.mp3&genericFileTitle=Avances y desafíos del NSJP" data-row="EpisodioxxxxxxxT2" data-year="2024" target="_self" title="T2 Ep. 06"><i class="fa fa-file-audio-o" aria-hidden="true"></i></i></a>
+                                                            </div>
+                                                        </td>
+                                                        <td></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            <div id="divTitle-Episodio04T2" data-year="2024" class="text-left" style="padding-left: 5px">
+                                                                <strong>Temporada 2, Ep. 6</strong><br /><span>Justicia Digital</span>
+                                                            </div>
+                                                        </td>
+                                                        <td><span class="tableCol-date">09/04/2024</span></td>
+                                                        <td style="padding: 15px 15px">
+                                                            <div class="text-center">
+                                                                <a class="fancybox fancybox.iframe" href="resources/audioPlayer.htm?file=audio_podcast_reflexionesT2_06_boletin_32.mp3&genericFileTitle=Justicia Digital" data-row="Episodio06T2" data-year="2024" target="_self" title="T2 Ep. 06"><i class="fa fa-file-audio-o" aria-hidden="true"></i></i></a>
+                                                            </div>
+                                                        </td>
+                                                        <td></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            <div id="divTitle-Episodio04T2" data-year="2024" class="text-left" style="padding-left: 5px">
+                                                                <strong>Temporada 2, Ep. 5</strong><br /><span>Neurociencia y Derecho</span>
+                                                            </div>
+                                                        </td>
+                                                        <td><span class="tableCol-date">02/04/2024</span></td>
+                                                        <td style="padding: 15px 15px">
+                                                            <div class="text-center">
+                                                                <a class="fancybox fancybox.iframe" href="resources/audioPlayer.htm?file=audio_podcast_reflexionesT2_05_boletin_31.mp3&genericFileTitle=Neurociencia y Derecho" data-row="Episodio05T2" data-year="2024" target="_self" title="T2 Ep. 05"><i class="fa fa-file-audio-o" aria-hidden="true"></i></i></a>
+                                                            </div>
+                                                        </td>
+                                                        <td></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            <div id="divTitle-Episodio04T2" data-year="2024" class="text-left" style="padding-left: 5px">
+                                                                <strong>Temporada 2, Ep. 4</strong><br /><span>Derechos humanos y la Judicatura</span>
+                                                            </div>
+                                                        </td>
+                                                        <td><span class="tableCol-date">19/03/2024</span></td>
+                                                        <td style="padding: 15px 15px">
+                                                            <div class="text-center">
+                                                                <a class="fancybox fancybox.iframe" href="resources/audioPlayer.htm?file=audio_podcast_reflexionesT2_04_boletin_30.mp3&genericFileTitle=Derechos humanos y la Judicatura" data-row="Episodio04T2" data-year="2024" target="_self" title="T2 Ep. 04"><i class="fa fa-file-audio-o" aria-hidden="true"></i></i></a>
+                                                            </div>
+                                                        </td>
+                                                        <td></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            <div class="text-left" style="padding-left: 5px">
+                                                                <strong>Temporada 2, Ep. 3</strong><br />Reflexiones: 8M Desafíos por la igualdad
+                                                            </div>
+                                                        </td>
+                                                        <td><span class="tableCol-date">12/03/2024</span></td>
+                                                        <td style="padding: 15px 15px">
+                                                            <div class="text-center">
+                                                                <a class="fancybox fancybox.iframe" href="resources/audioPlayer.htm?file=audio_podcast_reflexionesT2_03_boletin_29.mp3&genericFileTitle=8M Desafíos por la igualdad" data-row="Episodio03T2" data-year="2024" target="_self" title="T2 Ep. 03 8M"><i class="fa fa-file-audio-o" aria-hidden="true"></i></i></a>
+                                                            </div>
+                                                        </td>
+                                                        <td></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            <div class="text-left" style="padding-left: 5px">
+                                                                <strong>Temporada 2, Ep. 2</strong><br />Concurso mercantil no significa quiebra
+                                                            </div>
+                                                        </td>
+                                                        <td><span class="tableCol-date">05/03/2024</span></td>
+                                                        <td style="padding: 15px 15px">
+                                                            <div class="text-center">
+                                                                <a class="fancybox fancybox.iframe" href="resources/audioPlayer.htm?file=audio_podcast_reflexionesT2_02_boletin_28.mp3&genericFileTitle=Concurso mercantil no significa quiebra" data-row="Episodio02T2" data-year="2024" target="_self" title="T2 Episodio 02"><i class="fa fa-file-audio-o" aria-hidden="true"></i></i></a>
+                                                            </div>
+                                                        </td>
+                                                        <td></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            <div class="text-left" style="padding-left: 5px">
+                                                                <strong>Temporada 2, Ep. 1</strong><br />La experiencia de ser Consejero
+                                                            </div>
+                                                        </td>
+                                                        <td><span class="tableCol-date">27/02/2024</span></td>
+                                                        <td style="padding: 15px 15px">
+                                                            <div class="text-center">
+                                                                <a class="fancybox fancybox.iframe" href="resources/audioPlayer.htm?file=audio_podcast_reflexionesT2_01_boletin_27.mp3&genericFileTitle=Reflexiones desde el Consejo" data-row="Episodio08" data-year="2024" target="_self" title="T2 Episodio 01"><i class="fa fa-file-audio-o" aria-hidden="true"></i></i></a>
+                                                            </div>
+                                                        </td>
+                                                        <td></td>
+                                                    </tr>
+                                                    <tr style="background-color: light-gray">
+                                                        <td colspan="4">
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            <div class="text-left" style="padding-left: 5px">
+                                                                <strong>Episodio 1</strong><br />La Constituci&oacute;n
+                                                            </div>
+                                                        </td>
+                                                        <td><span class="tableCol-date">03/08/2023</span></td>
+                                                        <td style="padding: 15px 15px">
+                                                            <div class="text-center">
+                                                                <a class="fancybox fancybox.iframe" href="resources/audioPlayer.htm?file=audio_podcast_reflexiones_boletin_01.mp3&genericFileTitle=La%20Constituci%C3%B3n" data-row="Episodio1" target="_self" title="Episodio 1"><i class="fa fa-file-audio-o" aria-hidden="true"></i></i></a>
+                                                            </div>
+                                                        </td>
+                                                        <td>
+                                                            <ul>
+                                                                <li class="sublist text-left"> <a class="fancybox fancybox.iframe" href="resources/audioPlayer.htm?file=Entrevistas%2FEpisodio1%2FEntrevistaConsesjeraLiliaMonica.mp3&genericFileTitle=Entrevista C. Lilia Mónica López Benítez " data-row="Episodio1" target="_self" title="Episodio 1. Entrevista C. Lilia Mónica López Benítez"><i class="fa fa-file-audio-o" aria-hidden="true"></i></i>
+                                                                        C. Lilia Mónica López Benítez
+                                                                    </a>
+                                                                </li>
+                                                                <li class="sublist text-left"><a class="fancybox fancybox.iframe" href="resources/audioPlayer.htm?file=Entrevistas%2FEpisodio1%2FEntrevistaConsejeroAlejandroSergio.mp3&genericFileTitle=Entrevista C. Alejandro Sergio González Bernabé" data-row="Episodio1" target="_self" title="Episodio 1. Entrevista C. Alejandro Sergio González Bernabé"><i class="fa fa-file-audio-o" aria-hidden="true"></i></i>
+                                                                        C. Alejandro Sergio González Bernabé
+                                                                    </a>
+                                                                </li>
+                                                                <li class="sublist text-left"><a class="fancybox fancybox.iframe" href="resources/audioPlayer.htm?file=Entrevistas%2FEpisodio1%2FEntrevistaConsejeroSergioJavier.mp3&genericFileTitle=Entrevista C. Sergio Javier Molina Martínez" data-row="Episodio1" target="_self" title="Episodio 1. Entrevista C. Sergio Javier Molina Martínez"><i class="fa fa-file-audio-o" aria-hidden="true"></i></i>
+                                                                        C. Sergio Javier Molina Martínez
+                                                                    </a>
+                                                                </li>
+                                                            </ul>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            <div class="text-left" style="padding-left: 5px">
+                                                                <strong>Episodio 2</strong><br />Independencia judicial
+                                                            </div>
+                                                        </td>
+                                                        <td><span class="tableCol-date">10/08/2023</span></td>
+                                                        <td style="padding: 15px 15px">
+                                                            <div class="text-center">
+                                                                <a class="fancybox fancybox.iframe" href="resources/audioPlayer.htm?file=audio_podcast_reflexiones_boletin_02.mp3&genericFileTitle=Independencia Judicial" data-row="Episodio2" target="_self" title="Episodio 2"><i class="fa fa-file-audio-o" aria-hidden="true"></i></i></a>
+                                                            </div>
+                                                        </td>
+                                                        <td></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            <div class="text-left" style="padding-left: 5px">
+                                                                <strong>Episodio 3</strong><br />Equidad y justicia
+                                                            </div>
+                                                        </td>
+                                                        <td><span class="tableCol-date">16/08/2023</span></td>
+                                                        <td style="padding: 15px 15px">
+                                                            <div class="text-center">
+                                                                <a class="fancybox fancybox.iframe" href="resources/audioPlayer.htm?file=audio_podcast_reflexiones_boletin_03.mp3&genericFileTitle=Equidad%20y%20justicia" data-row="Episodio3" target="_self" title="Episodio 3"><i class="fa fa-file-audio-o" aria-hidden="true"></i></i></a>
+                                                            </div>
+                                                        </td>
+                                                        <td></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            <div class="text-left" style="padding-left: 5px">
+                                                                <strong>Episodio 4</strong><br />CJF y Derechos Humanos
+                                                            </div>
+                                                        </td>
+                                                        <td><span class="tableCol-date">23/08/2023</span></td>
+                                                        <td style="padding: 15px 15px">
+                                                            <div class="text-center">
+                                                                <a class="fancybox fancybox.iframe" href="resources/audioPlayer.htm?file=audio_podcast_reflexiones_boletin_04.mp3&genericFileTitle=CJF%20y%20Derechos%20Humanos" data-row="Episodio4" target="_self" title="Episodio 4"><i class="fa fa-file-audio-o" aria-hidden="true"></i></i></a>
+                                                            </div>
+                                                        </td>
+                                                        <td></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            <div class="text-left" style="padding-left: 5px">
+                                                                <strong>Episodio 5</strong><br />Escuela Judicial
+                                                            </div>
+                                                        </td>
+                                                        <td><span class="tableCol-date">30/08/2023</span></td>
+                                                        <td style="padding: 15px 15px">
+                                                            <div class="text-center">
+                                                                <a class="fancybox fancybox.iframe" href="resources/audioPlayer.htm?file=audio_podcast_reflexiones_boletin_05.mp3&genericFileTitle=Escuela%20Judicial" data-row="Episodio5" target="_self" title="Episodio 5"><i class="fa fa-file-audio-o" aria-hidden="true"></i></i></a>
+                                                            </div>
+                                                        </td>
+                                                        <td></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            <div class="text-left" style="padding-left: 5px">
+                                                                <strong>Episodio 6</strong><br />Revolución Tecnológica del CJF
+                                                            </div>
+                                                        </td>
+                                                        <td><span class="tableCol-date">06/09/2023</span></td>
+                                                        <td style="padding: 15px 15px">
+                                                            <div class="text-center">
+                                                                <a class="fancybox fancybox.iframe" href="resources/audioPlayer.htm?file=audio_podcast_reflexiones_boletin_06.mp3&genericFileTitle=Revolución Tecnológica del CJF" data-row="Episodio6" target="_self" title="Episodio 6"><i class="fa fa-file-audio-o" aria-hidden="true"></i></i></a>
+                                                            </div>
+                                                        </td>
+                                                        <td></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            <div class="text-left" style="padding-left: 5px">
+                                                                <strong>Episodio 7</strong><br />Juicio de Amparo
+                                                            </div>
+                                                        </td>
+                                                        <td><span class="tableCol-date">12/09/2023</span></td>
+                                                        <td style="padding: 15px 15px">
+                                                            <div class="text-center">
+                                                                <a class="fancybox fancybox.iframe" href="resources/audioPlayer.htm?file=audio_podcast_reflexiones_boletin_07.mp3&genericFileTitle=Juicio%20de%20%20Amparo" data-row="Episodio7" target="_self" title="Episodio 7"><i class="fa fa-file-audio-o" aria-hidden="true"></i></i></a>
+                                                            </div>
+                                                        </td>
+                                                        <td></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            <div class="text-left" style="padding-left: 5px">
+                                                                <strong>Episodio 8</strong><br />ABC de la Carrera Judicial
+                                                            </div>
+                                                        </td>
+                                                        <td><span class="tableCol-date">19/09/2023</span></td>
+                                                        <td style="padding: 15px 15px">
+                                                            <div class="text-center">
+                                                                <a class="fancybox fancybox.iframe" href="resources/audioPlayer.htm?file=audio_podcast_reflexiones_boletin_08.mp3&genericFileTitle=Episodio 08 ABC de la Carrera Judicial" data-row="Episodio8" target="_self" title="Episodio 8"><i class="fa fa-file-audio-o" aria-hidden="true"></i></i></a>
+                                                            </div>
+                                                        </td>
+                                                        <td></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            <div class="text-left" style="padding-left: 5px">
+                                                                <strong>Episodio 9</strong><br />Los derechos humanos y su cumplimiento
+                                                            </div>
+                                                        </td>
+                                                        <td><span class="tableCol-date">26/09/2023</span></td>
+                                                        <td style="padding: 15px 15px">
+                                                            <div class="text-center">
+                                                                <a class="fancybox fancybox.iframe" href="resources/audioPlayer.htm?file=audio_podcast_reflexiones_boletin_08_bis.mp3&genericFileTitle=Los derechos humanos y su cumplimiento" data-row="Episodio9" target="_self" title="Episodio 9"><i class="fa fa-file-audio-o" aria-hidden="true"></i></i></a>
+                                                            </div>
+                                                        </td>
+                                                        <td></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            <div class="text-left" style="padding-left: 5px">
+                                                                <strong>Episodio 10</strong><br />La inteligencia artificial y la justicia
+                                                            </div>
+                                                        </td>
+                                                        <td><span class="tableCol-date">03/10/2023</span></td>
+                                                        <td style="padding: 15px 15px">
+                                                            <div class="text-center">
+                                                                <a class="fancybox fancybox.iframe" href="resources/audioPlayer.htm?file=audio_podcast_reflexiones_boletin_09.mp3&genericFileTitle=La%20inteligencia%20artificial%20y%20la%20justicia" data-row="Episodio9" target="_self" title="Episodio 10"><i class="fa fa-file-audio-o" aria-hidden="true"></i></i></a>
+                                                            </div>
+                                                        </td>
+                                                        <td></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            <div class="text-left" style="padding-left: 5px">
+                                                                <strong>Episodio 11</strong><br />Conversación con el Consejero Bernardo Bátiz
+                                                            </div>
+                                                        </td>
+                                                        <td><span class="tableCol-date">10/10/2023</span></td>
+                                                        <td style="padding: 15px 15px">
+                                                            <div class="text-center">
+                                                                <a class="fancybox fancybox.iframe" href="resources/audioPlayer.htm?file=audio_podcast_reflexiones_boletin_10.mp3&genericFileTitle=Conversaci%C3%B3n%20con%20el%20Consejero%20Bernardo%20B%C3%A1tiz" data-row="Episodio10" target="_self" title="Episodio 11"><i class="fa fa-file-audio-o" aria-hidden="true"></i></i></a>
+                                                            </div>
+                                                        </td>
+                                                        <td></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            <div class="text-left" style="padding-left: 5px">
+                                                                <strong>Episodio 12</strong><br />Alto compromiso del IFDP
+                                                            </div>
+                                                        </td>
+                                                        <td><span class="tableCol-date">17/10/2023</span></td>
+                                                        <td style="padding: 15px 15px">
+                                                            <div class="text-center">
+                                                                <a class="fancybox fancybox.iframe" href="resources/audioPlayer.htm?file=audio_podcast_reflexiones_boletin_11.mp3&genericFileTitle=Alto%20compromiso%20del%20IFDP" data-row="Episodio11" target="_self" title="Episodio 12"><i class="fa fa-file-audio-o" aria-hidden="true"></i></i></a>
+                                                            </div>
+                                                        </td>
+                                                        <td></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            <div class="text-left" style="padding-left: 5px">
+                                                                <strong>Episodio 13</strong><br />Cero tolerancia al acoso laboral en el CJF
+                                                            </div>
+                                                        </td>
+                                                        <td><span class="tableCol-date">24/10/2023</span></td>
+                                                        <td style="padding: 15px 15px">
+                                                            <div class="text-center">
+                                                                <a class="fancybox fancybox.iframe" href="resources/audioPlayer.htm?file=audio_podcast_reflexiones_boletin_12.mp3&genericFileTitle=Cero tolerancia al acoso laboral en el CJF" data-row="Episodio12" target="_self" title="Episodio 13"><i class="fa fa-file-audio-o" aria-hidden="true"></i></i></a>
+                                                            </div>
+                                                        </td>
+                                                        <td></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            <div class="text-left" style="padding-left: 5px">
+                                                                <strong>Episodio 14</strong><br />El presupuesto y su impacto en la Justicia Laboral
+                                                            </div>
+                                                        </td>
+                                                        <td><span class="tableCol-date">07/11/2023</span></td>
+                                                        <td style="padding: 15px 15px">
+                                                            <div class="text-center">
+                                                                <a class="fancybox fancybox.iframe" href="resources/audioPlayer.htm?file=audio_podcast_reflexiones_boletin_14.mp3&genericFileTitle=El presupuesto y su impacto en la Justicia Laboral" data-row="Episodio14" target="_self" title="Episodio 14"><i class="fa fa-file-audio-o" aria-hidden="true"></i></i></a>
+                                                            </div>
+                                                        </td>
+                                                        <td></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            <div class="text-left" style="padding-left: 5px">
+                                                                <strong>Episodio 15</strong><br />La carrera judicial y la distinción al Mérito Judicial Ignacio L. Vallarta
+                                                            </div>
+                                                        </td>
+                                                        <td><span class="tableCol-date">14/11/2023</span></td>
+                                                        <td style="padding: 15px 15px">
+                                                            <div class="text-center">
+                                                                <a class="fancybox fancybox.iframe" href="resources/audioPlayer.htm?file=audio_podcast_reflexiones_boletin_15.mp3&genericFileTitle=La carrera judicial y la distinción al Mérito Judicial Ignacio L. Vallarta" data-row="Episodio15" target="_self" title="Episodio 15"><i class="fa fa-file-audio-o" aria-hidden="true"></i></i></a>
+                                                            </div>
+                                                        </td>
+                                                        <td></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            <div class="text-left" style="padding-left: 5px">
+                                                                <strong>Episodio 16</strong><br />16 Mujeres criminalizadas
+                                                            </div>
+                                                        </td>
+                                                        <td><span class="tableCol-date">21/11/2023</span></td>
+                                                        <td style="padding: 15px 15px">
+                                                            <div class="text-center">
+                                                                <a class="fancybox fancybox.iframe" href="resources/audioPlayer.htm?file=audio_podcast_reflexiones_boletin_16.mp3&genericFileTitle=16 Mujeres criminalizadas" data-row="Episodio16" target="_self" title="Episodio 16"><i class="fa fa-file-audio-o" aria-hidden="true"></i></i></a>
+                                                            </div>
+                                                        </td>
+                                                        <td></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            <div class="text-left" style="padding-left: 5px">
+                                                                <strong>Episodio 17</strong><br /> La transparencia legitima al CJF
+                                                            </div>
+                                                        </td>
+                                                        <td><span class="tableCol-date">28/11/2023</span></td>
+                                                        <td style="padding: 15px 15px">
+                                                            <div class="text-center">
+                                                                <a class="fancybox fancybox.iframe" href="resources/audioPlayer.htm?file=audio_podcast_reflexiones_boletin_17.mp3&genericFileTitle=La transparencia legitima al CJF" data-row="Episodio17" target="_self" title="Episodio 17"><i class="fa fa-file-audio-o" aria-hidden="true"></i></i></a>
+                                                            </div>
+                                                        </td>
+                                                        <td></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            <div class="text-left" style="padding-left: 5px">
+                                                                <strong>Episodio 18</strong><br />A un año de gestión en el CJF
+                                                            </div>
+                                                        </td>
+                                                        <td><span class="tableCol-date">05/12/2023</span></td>
+                                                        <td style="padding: 15px 15px">
+                                                            <div class="text-center">
+                                                                <a class="fancybox fancybox.iframe" href="resources/audioPlayer.htm?file=audio_podcast_reflexiones_boletin_18.mp3&genericFileTitle=A un año de gestión en el CJF" data-row="Episodio18" target="_self" title="Episodio 18"><i class="fa fa-file-audio-o" aria-hidden="true"></i></i></a>
+                                                            </div>
+                                                        </td>
+                                                        <td></td>
+                                                    </tr>
+                                                </tbody>
+                                                <tfoot>
+                                                    <tr style="background-color: #5daea8; color:white">
+                                                        <td colspan="4">
+                                                            <p class="text-center" style="width: 90%; margin: 0 auto; font-size: smaller;">Aqu&iacute; encontrar&aacute;s todas las producciones digitales de audio y video, entrevistas, clips y c&aacute;psulas sobre los temas jur&iacute;dicos m&aacute;s relevantes.</p>
+                                                        </td>
+                                                    </tr>
+                                                </tfoot>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="text-center">
+                                        <img src="//www.cjf.gob.mx/SalaPrensa/img/podcastSpotify/img_reflexiones_var.png" onclick='$("a.fancybox[data-row=\"Episodio08\"]").click();' width="75%" style="margin: 0 auto; display:block;min-width: 450px; max-width: 600px;cursor: pointer;" />
+                                    </div>
+                                    <div class="list-group carousel-list-group margin-top-md ">
+                                        <div class="list-group carousel-list-group">
+                                            <div class="list-group-item" style="padding:3px; background:#fff; min-height:160px;">
+                                                <table class="table" style="width: 100%;min-height:160px;">
+                                                    <thead>
+                                                        <tr>
+                                                            <th colspan="4" style="background-color: #24135f;">
+                                                                <h4 class="list-group-item-heading" style=";  margin-bottom: 0px; height: 50px;vertical-align: middle; color: white;display: contents">
+                                                                    <i class="fa fa-spotify" aria-hidden="true" style=" margin-top:-4px;font-size: larger;"></i> Te escuchamos
+                                                                </h4>
+                                                            </th>
+                                                        </tr>
+                                                        <tr>
+                                                            <th style="width: 35%; cursor: pointer;">
+                                                                <div class="text-left" style="padding-left: 5px">Descripci&oacute;n</div>
+                                                            </th>
+                                                            <th style="width:15%;"><i class="fa fa-calendar-o" aria-hidden="true"></i></th>
+                                                            <th style="width:10%;">
+                                                                <div class="text-center">Audio</div>
+                                                            </th>
+                                                            <th style="width:40%;">
+                                                                <div class="text-center">Entrevista Completa</div>
+                                                            </th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        <tr>
+                                                            <td>
+                                                                <div class="text-left" style="padding-left: 5px">
+                                                                    <strong>Episodio 7</strong><br />Derecho a la salud de personas con VIH
+                                                                </div>
+                                                            </td>
+                                                            <td><span class="tableCol-date">20/02/2024</span></td>
+                                                            <td style="padding: 15px 15px">
+                                                                <div class="text-center">
+                                                                    <a class="fancybox fancybox.iframe" href="resources/audioPlayer.htm?file=audio_podcast_teescuchamos07_boletin_26.mp3&genericFileTitle=Derecho a la salud de personas con VIH" data-row="Episodio07" data-year="2024" target="_self" title="Episodio 07, 2024"><i class="fa fa-file-audio-o" aria-hidden="true"></i></i></a>
+                                                                </div>
+                                                            </td>
+                                                            <td></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>
+                                                                <div class="text-left" style="padding-left: 5px">
+                                                                    <strong>Episodio 6</strong><br />El Derecho al deporte en prisión
+                                                                </div>
+                                                            </td>
+                                                            <td><span class="tableCol-date">13/02/2024</span></td>
+                                                            <td style="padding: 15px 15px">
+                                                                <div class="text-center">
+                                                                    <a class="fancybox fancybox.iframe" href="resources/audioPlayer.htm?file=audio_podcast_teescuchamos06_boletin_25.mp3&genericFileTitle=El Derecho al deporte en prisión" data-row="Episodio06" data-year="2024" target="_self" title="Episodio 06, 2024"><i class="fa fa-file-audio-o" aria-hidden="true"></i></i></a>
+                                                                </div>
+                                                            </td>
+                                                            <td></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>
+                                                                <div class="text-left" style="padding-left: 5px">
+                                                                    <strong>Episodio 5</strong><br />Criminalización de la pobreza
+                                                                </div>
+                                                            </td>
+                                                            <td><span class="tableCol-date">06/02/2024</span></td>
+                                                            <td style="padding: 15px 15px">
+                                                                <div class="text-center">
+                                                                    <a class="fancybox fancybox.iframe" href="resources/audioPlayer.htm?file=audio_podcast_teescuchamos05_boletin_24.mp3&genericFileTitle=Criminalización de la pobreza" data-row="Episodio05" data-year="2024" target="_self" title="Episodio 05, 2024"><i class="fa fa-file-audio-o" aria-hidden="true"></i></i></a>
+                                                                </div>
+                                                            </td>
+                                                            <td></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>
+                                                                <div class="text-left" style="padding-left: 5px">
+                                                                    <strong>Episodio 4</strong><br />Discriminación múltiple
+                                                                </div>
+                                                            </td>
+                                                            <td><span class="tableCol-date">30/01/2024</span></td>
+                                                            <td style="padding: 15px 15px">
+                                                                <div class="text-center">
+                                                                    <a class="fancybox fancybox.iframe" href="resources/audioPlayer.htm?file=audio_podcast_teescuchamos04_boletin_23.mp3&genericFileTitle=Discriminación múltiple" data-row="Episodio04" data-year="2024" target="_self" title="Episodio 04, 2024"><i class="fa fa-file-audio-o" aria-hidden="true"></i></i></a>
+                                                                </div>
+                                                            </td>
+                                                            <td></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>
+                                                                <div class="text-left" style="padding-left: 5px">
+                                                                    <strong>Episodio 3</strong><br />
+                                                                    Atletas paralímpicas y el derecho a la igualdad
+                                                                </div>
+                                                            </td>
+                                                            <td><span class="tableCol-date">23/01/2024</span></td>
+                                                            <td style="padding: 15px 15px">
+                                                                <div class="text-center">
+                                                                    <a class="fancybox fancybox.iframe" href="resources/audioPlayer.htm?file=audio_podcast_teescuchamos03_boletin_22.mp3&genericFileTitle=Atletas paralímpicas y el derecho a la igualdad" data-row="Episodio03" data-year="2024" target="_self" title="Episodio 03, 2024"><i class="fa fa-file-audio-o" aria-hidden="true"></i></i></a>
+                                                                </div>
+                                                            </td>
+                                                            <td></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>
+                                                                <div class="text-left" style="padding-left: 5px">
+                                                                    <strong>Episodio 2</strong><br />Defensa penal con perspectiva de género
+                                                                </div>
+                                                            </td>
+                                                            <td><span class="tableCol-date">16/01/2024</span></td>
+                                                            <td style="padding: 15px 15px">
+                                                                <div class="text-center">
+                                                                    <a class="fancybox fancybox.iframe" href="resources/audioPlayer.htm?file=audio_podcast_teescuchamos02_boletin_21.mp3&genericFileTitle=Defensa penal con perspectiva de género" data-row="Episodio02" data-year="2024" target="_self" title="Episodio 02, 2024"><i class="fa fa-file-audio-o" aria-hidden="true"></i></i></a>
+                                                                </div>
+                                                            </td>
+                                                            <td></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>
+                                                                <div class="text-left" style="padding-left: 5px">
+                                                                    <strong>Episodio 1</strong><br />Derechos de personas con fibromialgia
+                                                                </div>
+                                                            </td>
+                                                            <td><span class="tableCol-date">09/01/2024</span></td>
+                                                            <td style="padding: 15px 15px">
+                                                                <div class="text-center">
+                                                                    <a class="fancybox fancybox.iframe" href="resources/audioPlayer.htm?file=audio_podcast_teescuchamos01_boletin_20.mp3&genericFileTitle=Derechos de personas con fibromialgia" data-row="Episodio20" target="_self" title="Episodio 01"><i class="fa fa-file-audio-o" aria-hidden="true"></i></i></a>
+                                                                </div>
+                                                            </td>
+                                                            <td></td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                                <!--  <p class="list-group-item-text" style="padding:10px; min-height:150px;">
+                                                <a href="contenidosJusticiaAldia.htm" class="blue">...</a>
+                                            </p>-->
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-5 col-md-5 col-sm-6">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer id="footer"></footer>
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/script.min.js"></script>
+    <script src="../js/tab-navigator.js"></script>
+    <script src="../js/config.js"></script>
+    <script src="../js/generic.js"></script>
+    <script src="//www.cjf.gob.mx/cdn/js/micrositios/config.js"></script>
+    <!-- Add fancyBox main JS and CSS files -->
+    <script type="text/javascript" src="//www.cjf.gob.mx/js/fancybox-2.1.7/source/jquery.fancybox.pack.js?v=v=1.0.0"></script>
+    <link rel="stylesheet" type="text/css" href="//www.cjf.gob.mx/js/fancybox-2.1.7/source/jquery.fancybox.css?v=v=1.0.0" media="screen" />
+    <!-- Add Button helper (this is optional) -->
+    <link rel="stylesheet" type="text/css" href="//www.cjf.gob.mx/js/fancybox-2.1.7/source/helpers/jquery.fancybox-buttons.css?v=v=1.0.0" />
+    <!-- <script type="text/javascript" src="../source/helpers/jquery.fancybox-buttons.js?v=v=1.0.0"></script>-->
+    <!-- Add Thumbnail helper (this is optional) -->
+    <link rel="stylesheet" type="text/css" href="//www.cjf.gob.mx/js/fancybox-2.1.7/source/helpers/jquery.fancybox-thumbs.css?v=1v=1.0.0" />
+    <script type="text/javascript" src="//www.cjf.gob.mx/js/fancybox-2.1.7/source/helpers/jquery.fancybox-thumbs.js?v=v=1.0.0"></script>
+    <!-- Add Media helper (this is optional) -->
+    <script type="text/javascript" src="//www.cjf.gob.mx/js/fancybox-2.1.7/source/helpers/jquery.fancybox-media.js?v=1.0.0"></script>
+    <script>
+    var $_GET = $.requestParams();
+
+    function loadClickEpisodio(iEpisodio) {
+        $("a.fancybox[data-row='Episodio" + iEpisodio + "']").click()
+    }
+
+    jQuery(document).ready(function($) {
+        GetTagSource();
+
+        if ($_GET['iEpisodio'] != null && $_GET['iYear'] == null)
+            $("a[data-row='Episodio" + $_GET['iEpisodio'] + "']").click();
+        else
+        if ($_GET['iEpisodio'] != null && $_GET['iYear'] != null) {
+            var itemDataRow = $("a[data-row='Episodio" + $_GET['iEpisodio'] + "'][data-year='" + $_GET['iYear'] + "']");
+            itemDataRow.click();
+
+            /*var _dataRow = "Episodio" + $_GET['iEpisodio'];
+            var _dataRowYear = $_GET['iYear'];
+
+            var _divTitle = $("#divTitle-" + _dataRow + "[data-year='" + $_GET['iYear'] + "']");
+            var _audio_podcast_1 = "audio_podcast_reflexionesT2_04_boletin_30.mp3";
+
+            if (_divTitle != null) {
+
+                itemDataRow.attr("href", "resources/audioPlayer.htm?file=" + _audio_podcast_1 + "&genericFileTitle=" +
+                    _divTitle.find("strong").text());
+
+                itemDataRow.attr("title", _divTitle.find("span"));
+
+            }*/
+
+
+        }
+    });
+
+
+    $('.fancybox').fancybox({
+        'padding': 4,
+        'height': 'auto',
+        'transitionIn': 'none',
+        'transitionOut': 'none',
+        'type': 'iframe',
+        'width': '70%',
+
+        helpers: {
+            title: {
+                type: 'inside',
+                position: 'top'
+            },
+            overlay: {
+                speedOut: 0
+            }
+        },
+        beforeShow: function() {
+            console.log();
+            if (this.parent.width() > 1120)
+                this.width = 1120 * .75;
+
+        },
+        afterLoad: function() {
+            this.title = "<span style=\"font-size:14px;display:block;font-weight:bold; text-align:left;color:#24135f;padding:5px;\">" + (this.title ? '' + this.title : '') + "</span>";
+        } // afterLoad
+
+    });
+
+    /*
+     *  Different effects
+     */
+
+    // Change title type, overlay closing speed
+    $(".fancybox-effects-a").fancybox({
+
+
+        helpers: {
+            title: {
+                type: 'outside'
+            },
+            overlay: {
+                speedOut: 0
+            }
+        }
+    });
+    //var $_GET = $.requestParams();
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,20 @@
+var Documento = [
+{
+    "fiId": 1,
+    "fiIdRegistro": null,
+    "fiIdTipoDocto": 4,
+    "fsNombreArchivo": "Boletin_01",
+    "fsNombreFisico": "Boletin_01",
+    "fsRutaArchivo": "2023/documentos/",
+    "fsExtension": ".pdf",
+    "fsDesc": "",
+    "flPrincipal": true,
+    "fiEstatus": 7,
+    "flActivo": true,
+    "fsObservaciones": null,
+    "fsAlta": "75507",
+    "fdAlta": "13/09/2023",
+    "fsMod": null,
+    "fdMod": null,
+}
+],

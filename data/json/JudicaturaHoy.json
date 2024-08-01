@@ -1,0 +1,12 @@
+var jsonData = [
+
+        {
+            "fiEjercicio": 2023,
+            "fiTipo": 10,
+            "fiNumBoletin": 10,
+            "fsDescripcion": "",
+            "fiDocumento": "",
+            "fdPublica": "10/10/2023",
+            "fdAlta": "",
+        },
+        

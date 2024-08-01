@@ -1,0 +1,21 @@
+﻿<div class="row">
+    <div class="col-md-offset-2 col-md-8">
+        <h4>Somos CJF &nbsp;&nbsp;<span class="fas fa-video fa-lg"></span></h4>
+    </div>
+    <div style="width: 640px; height: 380px; margin: 50px auto; max-width: 100%; border: 1px solid #cccccc; padding: 20px 0px 0px 20px;">
+        <video poster="//www.cjf.gob.mx/img/posterBuzones.jpg" id="my-video" class="video-js vjs-default-skin" controls preload="auto" style="max-width: 100%; width: 600px; height: 340px;">
+            <source src="//www.cjf.gob.mx/SalaPrensa/resources/videos/somosCJF-30052023.mp4" type="video/mp4">
+        </video>
+    </div>
+</div>
+<script>
+var player = videojs('my-video', {
+    techOrder: ["html5"], // Prioriza el uso de HTML5 para reproducir el video
+    width: XXX, // Ancho del reproductor
+    height: XXX, // Altura del reproductor
+    bandwidth: {
+        limit: 350, // Límite de ancho de banda en kilobits por segundo (kbps)
+        selector: '.vjs-quality-menu-item' // Selector para los elementos de calidad del video
+    }
+});
+</script>
